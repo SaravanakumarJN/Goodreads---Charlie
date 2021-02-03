@@ -1,0 +1,35 @@
+.inputLabel{
+    position: relative;
+}
+
+.inputLabel > input{
+    width:360px;
+    padding: 7px 12px;
+    font-size: 15px;
+}
+
+.icon{
+    position: absolute;
+    top:4px;
+    right:15px;
+}
+
+.results{
+    width:385px;
+    position:absolute;
+    z-index: 1;
+    top:35px;
+    border:1px solid #D8D8D8;
+    background-color: white;
+}
+
+.bottom{
+    text-align: center;
+    padding:10px 0;
+    text-decoration: none;
+}
+
+.bottom:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
