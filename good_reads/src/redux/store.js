@@ -1,4 +1,5 @@
-
+import {applyMiddleware, combineReducers, compose, createStore} from 'redux'
+import { reducer } from './myBooks/reducer'
 import { genreReducer } from './genres/reducer'
 import { bookReducer } from './search/reducer'
 import { disPostReducer } from "./Discussion/redux";
@@ -12,7 +13,9 @@ const rootReducer = combineReducers({
     disPost: disPostReducer,
   trivia: TriviaReducer,
   signin:landingPage_reducers,
-    peopleData:peopleData_reducers
+    peopleData:peopleData_reducers,
+     myBooks: reducer                               
+                                  
 })
 const customThunks = (store) => (next) => (action) => {
   return typeof action === "function" ? action(store.dispatch) : next(action);
