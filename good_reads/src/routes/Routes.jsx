@@ -10,6 +10,8 @@ import { DiscussionPost } from "../pages/Discussion/DiscussionPost";
 import { Home } from "../pages/Discussion/Home";
 import DiscussionArea from "../pages/Discussion/DiscussionArea";
 import { Trivia } from "../pages/Trivia/Trivia";
+      import { People } from '../pages/people/People.jsx'
+import { PeopleShow } from '../pages/PeopleShow/PeopleShow'
 const Routes = () => {
     return (
         <Switch>
@@ -43,7 +45,14 @@ const Routes = () => {
         <Route exact path="/trivia">
           <Trivia />
         </Route>
+        <Route exact path="/">
+            <People></People>
+        </Route>
+            <Route exact path="/people/show/:id">
+                <PeopleShow/>
+            </Route>
         </Switch>
+
     )
 }
 export { Routes };
