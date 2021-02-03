@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navBar
+{
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    height: 80px;
+    width: 100%;
+    background-color: #F4F1EA;
+}
+.logo
+{
+    margin-top: 15px;
+    margin-left: 250px;
+    float: left;
+}
+.loginContainer
+{
+    height: 70px;
+    width: 450px;
+    margin-top: 15px;
+    margin-left: 500px;
+    float: left;
+}
+.loginContainer input
+{
+    padding: 5px;
+    width: 120px;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+}
+.loginContainer>p{
+    font-size: 13px;
+    margin-left: 155px;
+    opacity: 0.5;
+}
+.banner
+{
+    height: 330px;
+    width: 100%;
+    background-color: #32362D;
+    background-image: url(https://tsborki.by/wp-content/uploads/2018/03/3_zvezdyi.png);
+}
+.bannerImg
+{
+    height: 100%;
+    width: 800px;
+    text-align: center;
+    color: white;
+    float: left;
+ 
+}
+.bannerImg>p{
+font-size: 50px;
+}
+.bannerImg >h1{
+    font-size: 70px;
+}
+#bannerImg_p{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.signUpContainer
+{
+    padding: 0px;
+    height: 97%;
+    width: 300px;
+    float: left;
+    background-color: #F4F1EA ;
+}
+.signUpContainer input
+{
+    padding: 12px;
+    width: 250px;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.signUpContainer>:nth-child(9){
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 0.5;
+    color: white;
+    font-size: 13px;
+    color:#32362D ;
+}
+.signUpContainer>:nth-child(1)
+{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    color:#32362D ;
+}
+.banner2
+{
+    margin: 50px;
+    height: 400px;
+    width: 100%;
+}
+.banner2_container1
+{
+    height: 100%;
+    width: 600px;
+    background-color: #F4F1EA ;
+    margin-left: 300px;
+    text-align: center;
+    float: left;
+}
+.banner2_container1>p{
+     margin-top: 20px;   
+}
+#banner2_container1_h2{
+    padding-top: 20px;
+}
+.list{
+    margin-top: 20px;
+    float: left;
+}
+.list li 
+{
+    padding-left: 50px;
+    text-align: left;
+}
+.books
+{
+    height: 100%;
+    width: 300px;
+    float: left;
+    margin-left: 50px;
+}
+.bookshelves
+{
+    height: 130px;
+    width: 100%;
+    margin-top: 20px;
+}
+.bookpng
+{
+    margin-left: 70px;
+}

@@ -1,0 +1,14 @@
+.container
+{
+    height: 300px;
+    width: 100%;
+    background-color: #F4F1EA ;
+}
+.Box
+{
+    height: 280px;
+    width: 300px;
+    float: left;
+    margin-left: 70px;
+ 
+}
