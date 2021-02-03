@@ -1,0 +1,65 @@
+.box1
+{
+    margin-left: 320px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.profileBox
+{
+    height: 500px;
+    width: fit-content;
+    margin-left: 320px;
+    float: left;
+}
+
+.meetpeoplebox
+{
+    height: 150px;
+    width: 300px;
+    margin-left: 80px;
+    float: left;
+}
+.meetpeoplebox>:nth-child(1)
+{
+   margin-bottom: 5px;
+    border-bottom:1px solid grey ;
+}
+.container
+{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.numberbox
+{
+    height: 100%;
+    width: 10px;
+    float: left;
+}
+.imgContainer
+{
+    height: 90%;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 15px;
+    float: left;
+}
+.imgContainer>img{
+    height: 100%;
+    width: 100%;
+}
+.detailsContainer
+{
+    height: 90%;
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.detailsContainer p 
+{
+    font-size: 13px;
+    margin-top: 8px;
+}

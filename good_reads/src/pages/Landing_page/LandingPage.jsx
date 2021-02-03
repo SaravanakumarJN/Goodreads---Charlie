@@ -3,6 +3,8 @@ import style from "./landing.module.css";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import { Footer } from "../../components/Footer/Footer";
+import { useDispatch, useSelector } from "react-redux";
+import { name,sendAuthLogin,sendAuthRegister } from "../../redux/landingPage/action";
 
 const useStyles = makeStyles(() => ({
   btn: {
@@ -26,6 +28,34 @@ const useStyles = makeStyles(() => ({
 }));
 export const LandingPage = () => {
   const classes = useStyles();
+  const [email,setEmail] = React.useState()
+  const [email2,setEmail2] = React.useState()
+  const [username,setUsername] = React.useState()
+  const [password,setPassword] = React.useState()
+  const [password2,setPassword2] = React.useState()
+  const signin = useSelector(state=>state.signin.login)
+  const dispatch = useDispatch()
+  const handleRegister =()=>{
+      let payload ={
+        email:email,
+        password:password
+      }
+      dispatch(name(username))
+      dispatch(sendAuthRegister(payload))
+      setEmail("")
+      setPassword("")
+      setUsername("")
+  }
+  const handleLogin =()=>{
+    let payload ={
+      email:email2,
+      password:password2
+    }
+    dispatch(sendAuthLogin(payload))
+    setEmail("")
+    setPassword("")
+}
+console.log(signin)
   return (
     <>
       <div className={style.navBar}>
@@ -35,9 +65,9 @@ export const LandingPage = () => {
           alt="logo"
         />
         <div className={style.loginContainer}>
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
-          <Button className={classes.btn} variant="contained" color="primary">
+          <input onChange={(e)=>setEmail2(e.target.value)}  type="email" placeholder="email" />
+          <input onChange={(e)=>setPassword2(e.target.value)}   type="password" placeholder="password" />
+          <Button onClick={handleLogin}  className={classes.btn} variant="contained" color="primary">
             sign in
           </Button>
           <p>Forget it ?</p>
@@ -57,13 +87,13 @@ export const LandingPage = () => {
         </div>
         <div className={style.signUpContainer}>
           <p>New here? Create a free account!</p>
-          <input type="name" placeholder="username" />
+          <input onChange={(e)=>setUsername(e.target.value)} value={username} type="name" placeholder="username" />
           <br />
-          <input type="email" placeholder="email" />
+          <input onChange={(e)=>setEmail(e.target.value)}  type="email" placeholder="email" />
           <br />
-          <input type="password" placeholder="password" />
+          <input onChange={(e)=>setPassword(e.target.value)} type="password" placeholder="password" />
           <br />
-          <Button className={classes.btn} variant="contained" color="primary">
+          <Button onClick={handleRegister} className={classes.btn} variant="contained" color="primary">
             sign up
           </Button>
           <p>

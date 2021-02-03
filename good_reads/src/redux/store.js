@@ -1,6 +1,11 @@
 import {applyMiddleware, combineReducers, compose, createStore} from 'redux'
+import { landingPage_reducers } from './landingPage/landingPage_reducers'
+import { peopleData_reducers } from './peoplePage/peoplePage_reducers'
 
-const rootReducer = combineReducers()
+const rootReducer = combineReducers({
+    signin:landingPage_reducers,
+    peopleData:peopleData_reducers
+})
 
 const customThunks = store => next => action => {
     return typeof action === "function" ? action(store.dispatch) : next(action)
