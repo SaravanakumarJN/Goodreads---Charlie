@@ -1,0 +1,7 @@
+export const REQUEST = "REQUEST"
+export const FAILURE = "FAILURE"
+export const HANDLE_ERROR = "HANDLE_ERROR"
+
+export const GENRE_SEARCH_SUCCESS = "GENRE_SEARCH_SUCCESS"
+
+export const SET_SELECTED_BOOK = "SET_SELECTED_BOOK"

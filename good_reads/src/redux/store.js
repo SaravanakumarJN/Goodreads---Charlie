@@ -11,15 +11,16 @@ const rootReducer = combineReducers({
     genre : genreReducer,
     book : bookReducer,
     disPost: disPostReducer,
-  trivia: TriviaReducer,
-  signin:landingPage_reducers,
+    trivia: TriviaReducer,
+    signin:landingPage_reducers,
     peopleData:peopleData_reducers,
-     myBooks: reducer                               
-                                  
+     myBooks: reducer                                                        
 })
+
 const customThunks = (store) => (next) => (action) => {
   return typeof action === "function" ? action(store.dispatch) : next(action);
 };
+
 const composedEnhancer = compose(
   applyMiddleware(customThunks),
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()

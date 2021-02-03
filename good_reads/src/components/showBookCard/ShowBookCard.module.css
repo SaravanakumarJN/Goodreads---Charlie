@@ -1,0 +1,20 @@
+.container{
+    width:650px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left{
+    width:160px;
+    padding:10px;
+}
+
+.left > img{
+    width:150px;
+    height:220px;
+}
+
+.right{
+    width:450px;
+    padding:10px;
+}
