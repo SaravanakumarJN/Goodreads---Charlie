@@ -1,12 +1,14 @@
-import { applyMiddleware, combineReducers, compose, createStore } from "redux";
+import {applyMiddleware, combineReducers, compose, createStore} from 'redux'
+import { genreReducer } from './genres/reducer'
+import { bookReducer } from './search/reducer'
 import { disPostReducer } from "./Discussion/redux";
 import { TriviaReducer } from "./Trivia/redux";
-
 const rootReducer = combineReducers({
-  disPost: disPostReducer,
+    genre : genreReducer,
+    book : bookReducer,
+    disPost: disPostReducer,
   trivia: TriviaReducer,
-});
-
+})
 const customThunks = (store) => (next) => (action) => {
   return typeof action === "function" ? action(store.dispatch) : next(action);
 };
@@ -16,5 +18,4 @@ const composedEnhancer = compose(
 );
 
 const store = createStore(rootReducer, composedEnhancer);
-
 export { store };

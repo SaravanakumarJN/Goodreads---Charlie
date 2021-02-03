@@ -1,14 +1,33 @@
-import React from "react";
-import { Route, Switch } from "react-router-dom";
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import { ShowBookCard } from '../components/showBookCard/ShowBookCard'
+import { AllSearch } from '../pages/allSearch/AllSearch'
+import { AllSpecificGenre } from '../pages/allSpecificGenre/AllSpecificGenre'
+import { Genres } from '../pages/genres/Genres'
+import { SpecificGenre } from '../pages/specificGenre/SpecificGenre'
 import { Discussion } from "../pages/Discussion/Discussion";
 import { DiscussionPost } from "../pages/Discussion/DiscussionPost";
 import { Home } from "../pages/Discussion/Home";
 import DiscussionArea from "../pages/Discussion/DiscussionArea";
 import { Trivia } from "../pages/Trivia/Trivia";
 const Routes = () => {
-  return (
-    <>
-      <Switch>
+    return (
+        <Switch>
+            <Route exact path = "/genres">
+                <Genres></Genres>
+            </Route>
+            <Route exact path = "/genre/:type">
+                <SpecificGenre></SpecificGenre>
+            </Route>
+            <Route exact path = "/shelf/show/:genreType">
+                <AllSpecificGenre></AllSpecificGenre>
+            </Route>
+            <Route exact path = "/book/show/:bookId">
+                <ShowBookCard></ShowBookCard>
+            </Route>
+            <Route path = "/search/:query">
+                <AllSearch></AllSearch>
+            </Route>
         <Route exact path="/">
           <Home />
         </Route>
@@ -24,9 +43,7 @@ const Routes = () => {
         <Route exact path="/trivia">
           <Trivia />
         </Route>
-      </Switch>
-    </>
-  );
-};
-
+        </Switch>
+    )
+}
 export { Routes };
