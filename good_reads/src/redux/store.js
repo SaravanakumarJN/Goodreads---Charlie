@@ -1,6 +1,11 @@
 import {applyMiddleware, combineReducers, compose, createStore} from 'redux'
+import { genreReducer } from './genres/reducer'
+import { bookReducer } from './search/reducer'
 
-const rootReducer = combineReducers()
+const rootReducer = combineReducers({
+    genre : genreReducer,
+    book : bookReducer
+})
 
 const customThunks = store => next => action => {
     return typeof action === "function" ? action(store.dispatch) : next(action)
