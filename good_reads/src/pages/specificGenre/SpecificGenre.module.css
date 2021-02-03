@@ -1,0 +1,12 @@
+.bookContainer{
+    width:680px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img{   
+    width : 110px;
+    height:180px;
+    object-fit: cover;
+    margin:10px;
+}

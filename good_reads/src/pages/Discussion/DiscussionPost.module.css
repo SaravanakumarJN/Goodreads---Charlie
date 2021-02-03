@@ -1,0 +1,26 @@
+.cont {
+  width: 42%;
+  height: 350px;
+  /* border: 1px solid black; */
+  margin-left: 12%;
+}
+.p1 {
+  font-size: 19px;
+  font-weight: bolder;
+  font-family: "Merriweather", serif;
+}
+.input1 {
+  width: 220px;
+}
+.p2 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.p3 {
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: "Merriweather", serif;
+}
+.input2 {
+  width: 320px;
+}
