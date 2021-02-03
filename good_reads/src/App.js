@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
-import { Search } from './components/searchBar/Search'
-import { Routes } from './routes/Routes'
+import { Navbar } from './components/MyBooksCard/Navbar/Navbar'
+import { MyBooks } from './pages/MyBooks'
 
 const App = () => {
   return (
     <div>
-      <Search></Search>
-      <Routes></Routes>
+      <Navbar/>
+      <MyBooks/>
     </div>
   )
 }

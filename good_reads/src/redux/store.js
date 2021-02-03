@@ -1,10 +1,8 @@
 import {applyMiddleware, combineReducers, compose, createStore} from 'redux'
-import { genreReducer } from './genres/reducer'
-import { bookReducer } from './search/reducer'
+import { reducer } from './myBooks/reducer'
 
 const rootReducer = combineReducers({
-    genre : genreReducer,
-    book : bookReducer
+    myBooks: reducer
 })
 
 const customThunks = store => next => action => {
