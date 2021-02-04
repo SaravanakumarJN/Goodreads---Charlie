@@ -1,23 +1,30 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { Footer } from "../../../components/Footer/Footer";
-import { Navbar } from "../../../components/MyBooksCard/Navbar/Navbar";
 import { GetGroupData } from "../../../redux/allOptions/action";
 import style from "./Group.module.css";
 import {v4 as uuid} from "uuid"
 
 const init =[{
     name:"manish",
-    message:"hello everyone",
+    topic:"I love graphic novels. How do you find working as a writer in this format? What is the biggest challenge over a novel?",
+    message:" Writing graphic novels is much easier for me on every level. I visualize my novels as I write them and I love writing dialogue, both of which naturally lend themselves to the graphic novel format.",
     replay:[{r:"hello manish"},{r:"hello manish"}],
     id:"1"
+},
+{
+    name:"mandar",
+    topic:"What books are on your summer reading list this year?",
+    message:" suggest me some good books",
+    replay:[{r:"hello manish"},{r:"hello manish"}],
+    id:"2"
 }]
 
 
 export const Group = () => {
   let { q, g } = useParams();
   const[message,setMsg] = React.useState("")
+  const[topic,setTopic] = React.useState("")
   const [chat,setChat] = React.useState(init)
   const [num, setNum] = React.useState(4);
   const dispatch = useDispatch();
@@ -29,11 +36,13 @@ export const Group = () => {
   const hanldeAddChat =(name)=>{
         const payload={
             name:name,
+            topic:topic,
             message:message,
             id:uuid()
         }
         setChat([...chat,payload])
         setMsg("")
+        setTopic("")
   }
 
   
@@ -48,7 +57,6 @@ export const Group = () => {
     console.log(replayMsg)
   return (
     <div>
-      <Navbar />
       <div className={style.box}>
         <img src={data[0]?.volumeInfo.imageLinks.smallThumbnail} alt="alt" />
         <h1 className={style.groupName}>{g}</h1>
@@ -120,26 +128,28 @@ export const Group = () => {
       {
           chat.map(item=>{
             return <>
+          
               <div key={item.id} className={style.chat}>
-        <p className={style.message}><h style={{opacity:"0.5",color:"#4e5545"}}>{item.name}</h> {item.message}</p>
+            <h2>{item.topic}</h2>
+        <p className={style.message}><h style={{opacity:"0.5",color:"#4e5545"}}>{item.name}</h> <h style={{marginLeft:"25px"}}>{item.message}</h></p>
             <div className={style.replaySection}>
                 {
                     replayMsg.map(i=> item.id ===i[0]? 
-                         <p> {i[1]} <h style={{opacity:"0.5",color:"#4e5545",marginLeft:"20px",fontSize:"10px"}}>replay by {item.name}</h></p>
+                         <p style={{marginTop:"30px"}}> {i[1]} <h style={{opacity:"0.5",color:"#4e5545",marginLeft:"20px",fontSize:"10px"}}>replay by {item.name}</h></p>
                     :null)
                     }
             </div>
-            <input className={style.replayInput} onChange={(e)=>setReplay(e.target.value)} type="text" placeholder="replay here" />
-            <button onClick={()=>hanldeAddReplay(item.id)} style={{marginLeft:"10px", marginBottom: "10px",marginTop:"20px",}} className={style.replay}>Replay</button>
+            <input className={style.replayInput} onChange={(e)=>setReplay(e.target.value)} type="text"  />
+            <button onClick={()=>hanldeAddReplay(item.id)} style={{marginLeft:"10px", marginBottom: "10px",marginTop:"20px",}} className={style.replay}>comment</button>
         </div>
             </>})
       }
       </div>
       <div className={style.chatInputBox}>
-        <input className={style.sendInput}  value={message} onChange={(e)=>setMsg(e.target.value)} type="text" placeholder="type here" />
+        <input className={style.sendInput}  value={topic} onChange={(e)=>setTopic(e.target.value)} type="text" placeholder="topic" />
+        <input className={style.sendInput}  value={message} onChange={(e)=>setMsg(e.target.value)} type="text" placeholder="discussion" />
         <button onClick={()=>hanldeAddChat("saravana")} className={style.send} >Send</button>
       </div>
-      <Footer />
     </div>
   );
 };
