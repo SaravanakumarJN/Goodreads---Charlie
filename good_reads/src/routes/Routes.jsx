@@ -12,6 +12,9 @@ import DiscussionArea from "../pages/Discussion/DiscussionArea";
 import { Trivia } from "../pages/Trivia/Trivia";
 import { People } from '../pages/people/People.jsx'
 import { PeopleShow } from '../pages/PeopleShow/PeopleShow'
+
+import {LandingPage} from "../pages/Landing_page/LandingPage"
+
 import { Navbar } from '../components/MyBooksCard/Navbar/Navbar'
 import { Footer } from '../components/Footer/Footer'
 import { Group } from '../pages/allOption/Group/Group'
@@ -20,12 +23,15 @@ import {Main} from "../pages/allOption/main/Main"
 
 const Routes = () => {
     let { path } = useRouteMatch()
-    
+  
     console.log(path)
     return (
         <div className = "container">
             <Navbar></Navbar>
             <Switch>
+            {/* <Route exact path="/login">
+                    <LandingPage/>
+                </Route> */}
                 <Route exact path = "/genres">
                     <Genres></Genres>
                 </Route>
@@ -56,7 +62,7 @@ const Routes = () => {
                 <Route exact path="/trivia">
                     <Trivia />
                 </Route>
-                <Route exact path="/">
+                <Route exact path="/people">
                     <People></People>
                 </Route>
                 <Route exact path="/people/show/:id">

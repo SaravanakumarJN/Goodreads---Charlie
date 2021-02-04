@@ -37,10 +37,7 @@ export const Main = () => {
 
   return (
     <>
-      <Navbar />
-      <h1 style={{ marginTop: "50px", textAlign: "center", color: "#32362D" }}>
         Join your groups
-      </h1>
       <div className={style.box}>
         <input
           type="text"
@@ -92,8 +89,6 @@ export const Main = () => {
           );
         })}
       </div>
-      <Footer/>
-      
     </>
   );
 };
