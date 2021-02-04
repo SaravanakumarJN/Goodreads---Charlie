@@ -6,6 +6,7 @@ import { disPostReducer } from "./Discussion/redux";
 import { TriviaReducer } from "./Trivia/redux";
 import { landingPage_reducers } from './landingPage/landingPage_reducers'
 import { peopleData_reducers } from './peoplePage/peoplePage_reducers'
+import {postReducer} from "./Post/postReducer"
 
 const rootReducer = combineReducers({
     genre : genreReducer,
@@ -14,7 +15,8 @@ const rootReducer = combineReducers({
     trivia: TriviaReducer,
     signin:landingPage_reducers,
     peopleData:peopleData_reducers,
-     myBooks: reducer                                                        
+    myBooks: reducer,
+    posts : postReducer                                                      
 })
 
 const customThunks = (store) => (next) => (action) => {

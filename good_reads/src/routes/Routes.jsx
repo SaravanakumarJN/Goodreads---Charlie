@@ -7,13 +7,15 @@ import { Genres } from '../pages/genres/Genres'
 import { SpecificGenre } from '../pages/specificGenre/SpecificGenre'
 import { Discussion } from "../pages/Discussion/Discussion";
 import { DiscussionPost } from "../pages/Discussion/DiscussionPost";
-import { Home } from "../pages/Discussion/Home";
+// import { Home } from "../pages/Discussion/Home";
+import {Home} from "../pages/Home/Home"
 import DiscussionArea from "../pages/Discussion/DiscussionArea";
 import { Trivia } from "../pages/Trivia/Trivia";
 import { People } from '../pages/people/People.jsx'
 import { PeopleShow } from '../pages/PeopleShow/PeopleShow'
-import { Navbar } from '../components/MyBooksCard/Navbar/Navbar'
+import { Navbar } from '../components/Navbar/Navbar'
 import { Footer } from '../components/Footer/Footer'
+import { MyBooks } from '../pages/MyBooks/MyBooks'
 
 const Routes = () => {
     return (
@@ -37,6 +39,9 @@ const Routes = () => {
                 </Route>
                 <Route exact path="/">
                     <Home />
+                </Route>
+                <Route exact path="/mybooks">
+                    <MyBooks />
                 </Route>
                 <Route exact path="/discussion">
                     <Discussion />
