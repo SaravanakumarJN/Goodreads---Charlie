@@ -1,0 +1,72 @@
+.container{
+    width:650px;
+    display: flex;
+    flex-wrap: nowrap;   
+    margin:0px 20px 20px 18%;
+}
+
+.left{
+    width:160px;
+    padding:10px;
+}
+
+.left > img{
+    width:150px;
+    height:220px;
+}
+
+.right{
+    width:450px;
+    padding:10px;
+}
+
+.right > *{
+    padding: 8px 0;
+}
+
+.right > h2{
+    font-size: 25px;
+    padding:0px;
+}
+
+.right > strong{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rating{
+    padding:6px 0 !important;
+    color:#00635d;
+    font-size: 14px;
+}
+
+.description{
+    padding-top: 0px !important;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.getBook{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 8px 0 10px;
+}
+
+.getBook > h5{
+    color: #382110;
+    padding-bottom: 10px;
+}
+
+.getBook > button{
+    padding:8px 15px;
+    font-size: 13px;
+    background-color: #F4F1EA;
+    border:1px solid #D6D0C4;
+    border-radius: 3px;
+}
+
+.getBook > button:hover{
+    background-color: #ede6d6;
+}
+
+.moreDetails{
+    font-size: 12px;
+}

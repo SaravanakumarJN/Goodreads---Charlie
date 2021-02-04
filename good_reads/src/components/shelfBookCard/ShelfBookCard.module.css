@@ -1,0 +1,56 @@
+.card{
+    display: flex;
+    flex-wrap: nowrap;
+    height:120px;
+    width:600px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.card > div{
+    margin: 0;
+}
+
+.left{
+    padding:10px 0 10px 10px;
+    width:80px;
+}
+
+.left > img{
+    width:60px;
+    height:100px;
+    object-fit: cover;
+}
+
+.middle{
+    padding: 10px;
+    overflow: hidden;
+    width:360px;
+}
+
+.middle h3{
+    font-size: 17px;
+}
+
+.middle h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.middle div{
+    font-size: 14px;
+}
+
+.middle strong{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.right{
+    padding: 10px;
+    width:160px;
+}
+
+.grey{
+    color: #a6a6a6;
+}

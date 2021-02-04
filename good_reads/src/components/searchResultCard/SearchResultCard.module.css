@@ -1,0 +1,32 @@
+.card{
+    display : flex;
+    flex-wrap: nowrap;
+    width:365px;
+    height:55px;
+    padding : 10px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+.left{
+    width:60px;   
+}
+
+.left img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right{
+    width:280px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.right > h5{
+    height:15px;
+    overflow: hidden;
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
 import {Link} from "react-router-dom"
+import { Search } from '../../searchBar/Search'
+
 
 const Navbar = () => {
     return (
@@ -14,7 +16,7 @@ const Navbar = () => {
                 <div className={styles.menu}>
                     <Link to="#" className={styles.menu__link}>Browse <i class="fas fa-caret-down"></i></Link>
                     <div className={styles.dropdown_content}>
-                        <Link to="#" className={styles.dropdown_link}>All Genre</Link><br/>
+                        <Link to="/genres" className={styles.dropdown_link}>All Genre</Link><br/>
                         <Link to="#" className={styles.dropdown_link}>Mystery</Link><br/>
                         <Link to="#" className={styles.dropdown_link}>Thriller</Link><br/>
                         <Link to="#" className={styles.dropdown_link}>Comic</Link><br/>
@@ -32,7 +34,7 @@ const Navbar = () => {
                 </div> 
             </div>
             <div>
-                <input type="text" className={styles.navbar__search} placeholder="Search"/> 
+                <Search></Search>
             </div>
             <div>
                 <div className={styles.menu__icon}>
