@@ -6,6 +6,7 @@ import { bookSearchPerformerByID } from '../../redux/search/action';
 import { useParams } from 'react-router-dom';
 import {GoGraph} from 'react-icons/go'
 import StarRatings from 'react-star-ratings';
+import { ReadButton } from '../readButton/ReadButton'
 
 const ShowBookCard = () => {
     const {bookId} = useParams()
@@ -29,6 +30,7 @@ const ShowBookCard = () => {
             <div className = {styles.container}>
                 <div className = {styles.left}>
                     <img src = {src} alt = "img"></img>
+                    <ReadButton className = {styles.readButton}></ReadButton>
                 </div>
                 <div className = {styles.right}>
                     <h2>{title}</h2>

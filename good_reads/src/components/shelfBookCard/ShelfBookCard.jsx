@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './ShelfBookCard.module.css'
-import {GoTriangleDown} from 'react-icons/go'
 import { useHistory } from 'react-router-dom'
 import {useDispatch} from 'react-redux'
 import { setSelectedBook } from '../../redux/genres/action'
+import { ReadButton } from '../readButton/ReadButton'
 
 const ShelfBookCard = ({volumeInfo, id}) => {
     const {title, authors, averageRating, categories,ratingsCount, imageLinks, publishedDate } = volumeInfo
@@ -32,12 +32,7 @@ const ShelfBookCard = ({volumeInfo, id}) => {
                 </div>
             </div>
             <div className = {styles.right}>
-                <button>
-                    Want to Read
-                </button>
-                <button>
-                    <GoTriangleDown></GoTriangleDown>
-                </button>
+                <ReadButton></ReadButton>
             </div>
         </div>
     )

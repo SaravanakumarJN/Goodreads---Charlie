@@ -29,4 +29,9 @@
 .right > h5{
     height:15px;
     overflow: hidden;
+    margin:-2px 0 5px;
+}
+
+.right > div{
+    font-size: 13px;
 }
