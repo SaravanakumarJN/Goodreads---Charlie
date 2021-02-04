@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, useParams, useRouteMatch } from 'react-router-dom'
 import { ShowBookCard } from '../components/showBookCard/ShowBookCard'
 import { AllSearch } from '../pages/allSearch/AllSearch'
 import { AllSpecificGenre } from '../pages/allSpecificGenre/AllSpecificGenre'
@@ -13,15 +13,32 @@ import DiscussionArea from "../pages/Discussion/DiscussionArea";
 import { Trivia } from "../pages/Trivia/Trivia";
 import { People } from '../pages/people/People.jsx'
 import { PeopleShow } from '../pages/PeopleShow/PeopleShow'
+<<<<<<< HEAD
 import { Navbar } from '../components/Navbar/Navbar'
 import { Footer } from '../components/Footer/Footer'
 import { MyBooks } from '../pages/MyBooks/MyBooks'
+=======
+
+import {LandingPage} from "../pages/Landing_page/LandingPage"
+
+import { Navbar } from '../components/MyBooksCard/Navbar/Navbar'
+import { Footer } from '../components/Footer/Footer'
+import { Group } from '../pages/allOption/Group/Group'
+import {Main} from "../pages/allOption/main/Main"
+
+>>>>>>> 9bc6fedd47b137873686fcb5c16c1c51ca54d6c4
 
 const Routes = () => {
+    let { path } = useRouteMatch()
+  
+    console.log(path)
     return (
         <div className = "container">
             <Navbar></Navbar>
             <Switch>
+            {/* <Route exact path="/login">
+                    <LandingPage/>
+                </Route> */}
                 <Route exact path = "/genres">
                     <Genres></Genres>
                 </Route>
@@ -55,11 +72,17 @@ const Routes = () => {
                 <Route exact path="/trivia">
                     <Trivia />
                 </Route>
-                <Route exact path="/">
+                <Route exact path="/people">
                     <People></People>
                 </Route>
                 <Route exact path="/people/show/:id">
                     <PeopleShow/>
+                </Route>
+                 <Route exact path="/group">
+                    <Main/>
+                </Route>
+                <Route exact path="/group/:g/:q">
+                    <Group/>
                 </Route>
             </Switch>
             <Footer></Footer>

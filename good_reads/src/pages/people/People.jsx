@@ -74,7 +74,6 @@ export const People = () => {
         </p>
       </div>
       </>
-      <Footer/>
     </>
     
   );
