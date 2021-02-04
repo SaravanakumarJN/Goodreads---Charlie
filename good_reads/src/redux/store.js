@@ -6,7 +6,6 @@ import { disPostReducer } from "./Discussion/redux";
 import { TriviaReducer } from "./Trivia/redux";
 import { landingPage_reducers } from './landingPage/landingPage_reducers'
 import { peopleData_reducers } from './peoplePage/peoplePage_reducers'
-
 import {postReducer} from "./Post/postReducer"
 
 import { allOption_reducers } from './allOptions/allOption_reducers';

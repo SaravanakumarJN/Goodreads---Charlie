@@ -13,20 +13,14 @@ import DiscussionArea from "../pages/Discussion/DiscussionArea";
 import { Trivia } from "../pages/Trivia/Trivia";
 import { People } from '../pages/people/People.jsx'
 import { PeopleShow } from '../pages/PeopleShow/PeopleShow'
-<<<<<<< HEAD
 import { Navbar } from '../components/Navbar/Navbar'
-import { Footer } from '../components/Footer/Footer'
 import { MyBooks } from '../pages/MyBooks/MyBooks'
-=======
-
 import {LandingPage} from "../pages/Landing_page/LandingPage"
-
-import { Navbar } from '../components/MyBooksCard/Navbar/Navbar'
 import { Footer } from '../components/Footer/Footer'
 import { Group } from '../pages/allOption/Group/Group'
 import {Main} from "../pages/allOption/main/Main"
 
->>>>>>> 9bc6fedd47b137873686fcb5c16c1c51ca54d6c4
+
 
 const Routes = () => {
     let { path } = useRouteMatch()
