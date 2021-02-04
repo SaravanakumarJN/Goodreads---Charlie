@@ -24,7 +24,7 @@ const ShelfBookCard = ({volumeInfo, id}) => {
             <div className = {styles.middle}>
                 <h3 onClick = {handlePage}>{title}</h3>
                 <div className = {styles.grey}>
-                    by {authors?.map((item, i) => <strong key = {i}>{item}</strong>)}{" "} 
+                    <strong>by {authors?.map((item, i) => <span key = {i}>{item}</span>)}{" "}</strong> 
                     ({categories?.map((item, i) => <span key = {i}>{item}</span>)})
                 </div>
                 <div className = {styles.grey}>

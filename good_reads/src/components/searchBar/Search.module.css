@@ -1,16 +1,19 @@
 .inputLabel{
     position: relative;
+    color : #A8A8A8;
+    top:10px;
 }
 
 .inputLabel > input{
     width:360px;
     padding: 7px 12px;
     font-size: 15px;
+    border:1px solid #DCD6CC;
 }
 
 .icon{
     position: absolute;
-    top:4px;
+    top:3px;
     right:15px;
 }
 
@@ -18,9 +21,14 @@
     width:385px;
     position:absolute;
     z-index: 1;
-    top:35px;
+    top:43px;
     border:1px solid #D8D8D8;
     background-color: white;
+}
+
+.results > h5{
+    margin:15px;
+    text-align: center;
 }
 
 .bottom{
