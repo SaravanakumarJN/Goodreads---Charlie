@@ -42,14 +42,14 @@ const SpecificGenre = () => {
                         } 
                     })
                 }
-                {
-                    genreItems?.length > 15 
-                    ? <div>
-                        <Link to = {`/shelf/show/${type}`}>{`More ${type} books`}</Link>
-                    </div>
-                    : null
-                }
             </div>
+            {
+                genreItems?.length > 15 
+                ? <div className = {styles.linkDiv}>
+                    <Link className = {styles.link} to = {`/shelf/show/${type}`}>{`More ${type} books...`}</Link>
+                </div>
+                : null
+            }
         </div>
     )
 }
