@@ -1,7 +1,7 @@
 import React from 'react'
-import {MyBooksCard} from "../components/MyBooksCard/MyBooksCard"
+import {MyBooksCard} from "../../components/MyBooksCard/MyBooksCard"
 import {shallowEqual, useDispatch, useSelector} from "react-redux"
-import { getBooks } from '../redux/myBooks/action'
+import { getBooks } from '../../redux/myBooks/action'
 import styles from "./MyBooks.module.css"
 
 const MyBooks = () => {
@@ -106,13 +106,15 @@ const MyBooks = () => {
     return (
         <div className={styles.cont}>
             <h2>My Books</h2>
-            <hr/>
+            <hr className={styles.horizontal_rule}/>
             <div className={styles.cont__flex}>
                 <div className={styles.cont__filter}>
+                    <p><b>Bookshelf</b></p>
                         <button value="all" className={styles.filter_btn} onClick={e => handleChange(e.target.value)}>All</button><br/>
                         <button value="read" className={styles.filter_btn}  onClick={e => handleChange(e.target.value)}>Read</button><br/>
                         <button value="currently_reading" className={styles.filter_btn}  onClick={e => handleChange(e.target.value)}>Currently Reading</button><br/>
                         <button value="want_to_read" className={styles.filter_btn}  onClick={e => handleChange(e.target.value)}>Want to Read</button><br/>
+                        <hr className={styles.horizontal_rule}/>
                         {/* <p value="all" name="bookshelf" onClick={handleChange}>All</p>
                         <p>Read</p>
                         <p>Currently Reading</p>

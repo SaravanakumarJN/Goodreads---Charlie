@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
 import React from "react";
-import { Navbar } from "../../../components/MyBooksCard/Navbar/Navbar";
+import { Navbar } from "../../../components/Navbar/Navbar";
 import style from "./main.module.css";
 import {num} from "../../people/people"
 import {Footer} from "../../../components/Footer/Footer"
