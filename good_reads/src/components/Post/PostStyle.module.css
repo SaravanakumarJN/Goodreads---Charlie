@@ -74,10 +74,15 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .comment_user{
     display: flex;
     margin: 0.3em;
+}
+
+.comment_user img{
+    width: 90%;
+    margin: auto;
+    border-radius: 100%;
 }
 
 /* .comment_user p{
@@ -97,3 +102,29 @@
 .comment_comment{
     margin-left: 0.5em;
 }
+
+.current_comment{
+    display: flex;
+}
+
+.comment_current_profile{
+    flex-basis: 3em;
+    padding: 0.5em;
+}
+
+.comment_current_profile img{
+    width: 90%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.comment_current_input{
+    flex: 1;
+}
+
+.comment_current_input input{
+    margin-top: 10px;
+}
+
+
+

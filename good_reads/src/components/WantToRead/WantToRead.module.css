@@ -1,0 +1,17 @@
+.want_to_read{
+    margin: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.want_to_read div{
+    margin: 2px;
+}
+
+.center_cropped{
+    object-fit: cover;
+    object-position: center;
+    height: 100px;
+    width: 100px;
+}

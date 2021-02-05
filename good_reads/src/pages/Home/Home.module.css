@@ -1,3 +1,7 @@
+h3{
+    font-family: 'Lato', sans-serif;
+}
+
 .home__cont{
     display: flex;
     flex-wrap: nowrap;
@@ -6,15 +10,16 @@
 
 .home__left{
     flex-basis: 30em;
+    padding: 0 1em 0 2em;
 }
 
 .home__mid{
     flex-basis: 50em;
-    background-color: #F9F7F4;
 }
 
 .home__right{
     flex-basis: 30em;
+    padding: 0 1em;
 }
 
 /* .time_stamp{
@@ -46,6 +51,18 @@
 
 .post__main{
     display: flex;
+}
+
+.home__cont h4, h3{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+}
+
+.home__cont p{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #575757;
 }
 
 .post__cont{
@@ -90,3 +107,40 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+.horizontal_rule{
+    margin: 1em 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.right__cards{
+    margin: 0 1em ;
+}
+
+.footer{
+    line-height: 1.7em;
+}
+
+.footer__cont{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.socials i{
+    font-size: 2em;
+    margin-right: 7px;
+    color: #A2A19F;
+}
+
+.bookshelves{
+    line-height: 1.5em;
+}
+
+.bookshelves h4{
+    margin-bottom: 10px;
+}
+

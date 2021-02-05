@@ -12,7 +12,6 @@ const MyBooks = () => {
     const [sortOpt, setSortOpt] = React.useState("title")
     const [checked, setChecked] = React.useState("asc")
 
-
     const dispatch = useDispatch();
 
     React.useEffect(()=> {
