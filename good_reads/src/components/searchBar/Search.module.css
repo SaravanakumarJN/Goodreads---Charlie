@@ -43,12 +43,3 @@
     text-decoration: underline;
     cursor: pointer;
 }
-
-@media only screen and (max-width: 1150px){
-    .inputLabel > input{
-        width:260px;
-    }
-    .results{
-        width:285px;
-    }
-}

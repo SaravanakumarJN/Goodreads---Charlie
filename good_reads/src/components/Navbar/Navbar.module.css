@@ -1,23 +1,25 @@
 .navbar__cont{
     position: fixed;
     top: 0;
-    width: 98%;
-    min-width: 1024px;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
     background-color: #F4F1EA;
     z-index: 1;
-    padding: 0 0 0 2%;
+    padding: 0 5em;
 }
 
 .menu__logo{
-    width: 7em;
-    margin-top: 15px;
-    margin-right: 15px;
+    width: 10em;
+    margin-top: 10px;
+    margin-right: 2em;
 }
 
 .navbar__cont > div{
+    flex: auto;
     display: flex;
+    justify-content: left;
 }
 
 .menu{
@@ -25,7 +27,6 @@
     padding: 1em 0;
     position: relative;
     display: inline-block;
-    color: #382110;
 }
 
 .menu :hover{
@@ -61,7 +62,18 @@
     text-decoration: none;
     text-decoration: none;
     color: #3D2716;
-    padding: 1em 10px;
+    padding: 1em;
+}
+
+.navbar__search{
+    margin: 5px 0;
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 1em;
 }
 
 .menu__icon i{
@@ -75,7 +87,7 @@
 
 .menu__icon :hover + .dropdown_content{
     display: block;
-    right: 30px;
+    right: 5em;
 }
 
 .navbar__left{
@@ -98,22 +110,4 @@
     line-height: 2em;
 }
 
-.flexgrow1{
-    flex-grow: 1;
-}
-
-.flexgrow2{
-    flex-grow: 0.9;
-}
-
-.navbar__right{
-    margin-right: 30px;
-}
-
-@media only screen and (max-width: 1180px){
-    .navbar__right{
-        margin-right: 0px;
-    }
-    
-}
 

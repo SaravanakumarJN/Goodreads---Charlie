@@ -26,7 +26,7 @@ const getPostsFailure = (payload) =>{
 const getPosts = (payload) => (dispatch) =>{
     dispatch(getPostsRequest);
     return axios
-    .get("https://good-reads-users-mock.herokuapp.com/community_updates")
+    .get("http://localhost:3000/community")
     .then(res => dispatch(getPostsSuccess(res.data)))
     .catch(err => {
         dispatch(getPostsFailure(err))
