@@ -6,15 +6,9 @@ import { updatePosts } from '../../redux/Post/action';
 import { getPosts } from '../../redux/Post/action'
 
 
-
-
 const Home = () => {
 
     const posts = useSelector(state => state.posts.posts);
-
-    const currUserProfile = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.3OcSxB5CZPfkP5NB8z1CDQHaHa%26pid%3DApi&f=1"
-    const currentUser ="Mandar Satam";
-
     const dispatch = useDispatch();
 
     React.useEffect(()=> {

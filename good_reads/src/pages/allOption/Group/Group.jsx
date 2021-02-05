@@ -72,7 +72,7 @@ export const Group = () => {
         <br/>
         <p style={{opacity:"0.3"}}>tags -- book-club, book-clubs, book-group, fiction, jenna-bush-hager, literature, today, and women-authors</p>
         <br/>
-        <p style={{opacity:"0.3"}}>group -- typeThis is a public group. Anyone can join and invite others to join.</p>
+        <p style={{opacity:"0.3"}}>group type -- This is a public group. Anyone can join and invite others to join.</p>
         <br />
         <h2 style={{opacity:"0.5"}}>#Read with the group books</h2>
         <div className={style.bookBox}>

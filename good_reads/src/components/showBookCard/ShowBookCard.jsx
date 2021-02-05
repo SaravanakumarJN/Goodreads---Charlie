@@ -15,12 +15,12 @@ const ShowBookCard = () => {
 
     React.useEffect(() => {
         dispatch(bookSearchPerformerByID(bookId))
-    }, [selectedBook])
+    }, [bookId])
 
     if(selectedBook !== null){
         const {volumeInfo} = selectedBook
         const {title, authors, description, publisher, publishedDate, pageCount, averageRating, ratingsCount, imageLinks, infoLink} = volumeInfo
-        const src = imageLinks === "undefined" ? "https://via.placeholder.com/150x220.png?text=No+image" : imageLinks.smallThumbnail
+        const src = imageLinks === undefined ? "https://via.placeholder.com/150x220.png?text=No+image" : imageLinks.smallThumbnail
 
         const handlePage = () => {
             window.open(infoLink, "_blank")
@@ -30,7 +30,7 @@ const ShowBookCard = () => {
             <div className = {styles.container}>
                 <div className = {styles.left}>
                     <img src = {src} alt = "img"></img>
-                    <ReadButton className = {styles.readButton}></ReadButton>
+                    <ReadButton selectedBook = {selectedBook}></ReadButton>
                 </div>
                 <div className = {styles.right}>
                     <h2>{title}</h2>
