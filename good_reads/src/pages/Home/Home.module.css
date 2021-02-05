@@ -2,19 +2,21 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    background-color: #F9F7F4;
 }
 
 .home__left{
     flex-basis: 30em;
+    padding: 0 20px;
 }
 
 .home__mid{
     flex-basis: 50em;
-    background-color: #F9F7F4;
 }
 
 .home__right{
     flex-basis: 30em;
+    padding: 0 20px;
 }
 
 /* .time_stamp{

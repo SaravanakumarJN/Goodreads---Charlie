@@ -134,6 +134,9 @@ const MyBooks = () => {
                             <MyBooksCard {...item} key={item.id}/>   
                         ): books.length !== 0 ? books[0].map(item =>  <MyBooksCard {...item} key={item.id}/> ): <div></div>
                     }  
+                </div>
+                <div>
+                    <p><b>Sort</b></p>
                     <div className={styles.cont__sort}>
                         <select name="sort" value={sortOpt} onChange={e => handleSort(e.target.value)}>
                             <option value="title">Title</option>
@@ -141,12 +144,14 @@ const MyBooks = () => {
                             <option value="publishedDate">Publised Date</option>
                         </select>
                         <div>
-                            <input type="radio" id="asc" name="sort" value="asc" checked={checked==="asc" ? true: false} onClick={e => handleSortDetail(e.target.value)}/>
-                            <label for="asc">Asc</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="asc" name="sort" value="dsc" checked={checked==="dsc" ? true: false} onClick={e => handleSortDetail(e.target.value)}/>
-                            <label for="asc">Dsc</label>
+                            <span>
+                                <input type="radio" id="asc" name="sort" value="asc" checked={checked==="asc" ? true: false} onClick={e => handleSortDetail(e.target.value)}/>
+                                <label for="asc">Asc</label>
+                            </span>
+                            <span>
+                                <input type="radio" id="asc" name="sort" value="dsc" checked={checked==="dsc" ? true: false} onClick={e => handleSortDetail(e.target.value)}/>
+                                <label for="asc">Dsc</label>
+                            </span>
                         </div>
                     </div> 
                 </div>

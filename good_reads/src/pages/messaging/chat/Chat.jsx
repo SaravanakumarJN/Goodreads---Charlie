@@ -60,7 +60,7 @@ export const Chat = () => {
             </div>:item.person2===person1? 
                 <div className={style.chatbox}>
                 <div className={style.imgBox}>
-                    <img src="https://i.pinimg.com/originals/f2/0b/d3/f20bd31d1b96a0ab86b75029da6a87ca.jpg" alt="alt"/>
+                    <img src="https://fitindia.gov.in/wp-content/uploads/2020/08/pexels-photo-771742.jpeg" alt="alt"/>
                 </div>
                 <div className={style.contentBox}>
                     <p className={style.personName}>{item.person1}</p>
