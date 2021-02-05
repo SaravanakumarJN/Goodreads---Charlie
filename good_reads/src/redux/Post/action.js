@@ -60,20 +60,20 @@ const updatePostsFailure = (payload) =>{
 const updatePosts = (id, commentObj) => async(dispatch) => {
     try{
         if(commentObj !== null){
-            let res = await axios.get(`http://localhost:3000/community/${id}`)
+            let res = await axios.get(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`)
             let tempData = res.data.comments;
             tempData.push(commentObj)
             dispatch(updatePostsRequest())
-            const det = await axios.patch(`http://localhost:3000/community/${id}`,{
+            const det = await axios.patch(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`,{
                 comments : tempData
             })
             dispatch(getPosts())
         }else{
-            let res = await axios.get(`http://localhost:3000/community/${id}`)
+            let res = await axios.get(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`)
             let tempData = res.data.likes;
             tempData++;
             dispatch(updatePostsRequest())
-            const det = await axios.patch(`http://localhost:3000/community/${id}`,{
+            const det = await axios.patch(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`,{
                  likes : tempData
             })
             dispatch(getPosts())
