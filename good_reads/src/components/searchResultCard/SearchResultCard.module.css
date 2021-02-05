@@ -33,5 +33,11 @@
 }
 
 .right > div{
-    font-size: 13px;
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 1150px){
+    .card{
+        width:265px;
+    }
 }
