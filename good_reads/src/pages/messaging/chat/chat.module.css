@@ -58,6 +58,7 @@
     font-size: 15px;
     font-weight: 700;
     margin-top: 10px;
+    margin-right: 20px;
 }
 .message
 {
@@ -75,7 +76,7 @@
     font-size: 15px;
     font-weight: 700;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     text-align: right;
 }
 .time2
@@ -92,6 +93,7 @@
     width: fit-content;
     background-color: #579ffb;
     border-radius: 10px 10px 10px 0px;
+    margin-top: 10px;
 }
 .contentBox p{
     margin-left: 10px;

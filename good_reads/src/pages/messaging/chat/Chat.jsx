@@ -36,12 +36,13 @@ export const Chat = () => {
     }
 
     return (
-        <>
+        <div>
         <div className={style.heading}>
         <h2 ><h className={style.colorBlue}>Messages </h>{">"} Compose new message</h2>
         <p>from : {person1}</p>
         <p>to :  <input onChange={(e)=>setPerson2(e.target.value)} type="text"></input></p>
         </div>
+        
         <div className={style.ChatMainBox}>
             <div className={style.dummy}></div>
             {
@@ -56,17 +57,17 @@ export const Chat = () => {
                 <div className={style.imgBox}>
                     <img src="https://i.pinimg.com/originals/f2/0b/d3/f20bd31d1b96a0ab86b75029da6a87ca.jpg" alt="alt"/>
                 </div>
-            </div>: 
+            </div>:item.person2===person1? 
                 <div className={style.chatbox}>
                 <div className={style.imgBox}>
                     <img src="https://i.pinimg.com/originals/f2/0b/d3/f20bd31d1b96a0ab86b75029da6a87ca.jpg" alt="alt"/>
                 </div>
                 <div className={style.contentBox}>
-                    <p className={style.personName}>{item.person2}</p>
+                    <p className={style.personName}>{item.person1}</p>
                     <p className={style.time}>{item.time}</p>
                     <p className={style.message}>{item.message}</p>
                 </div>
-            </div>}
+            </div>:null}
                     </>
                 })
             }
@@ -90,6 +91,6 @@ export const Chat = () => {
             <button onClick={handlePostChat}>send</button>
         </div>
 
-        </>
+        </div>
     )
 }

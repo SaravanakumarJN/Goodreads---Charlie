@@ -1,6 +1,6 @@
 .container > :nth-child(2){
     padding-top : 70px ;
-
+    min-height: 60vh;
 }
 
 .read-more-less--more,

@@ -29,9 +29,9 @@ const Routes = () => {
     <div className="container">
       <Navbar></Navbar>
       <Switch>
-        {/* <Route exact path="/login">
+        <Route exact path="/login">
                     <LandingPage/>
-                </Route> */}
+                </Route>
         <Route exact path="/genres">
           <Genres></Genres>
         </Route>
