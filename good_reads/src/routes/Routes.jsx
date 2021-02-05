@@ -20,6 +20,9 @@ import { Footer } from "../components/Footer/Footer";
 import { Group } from "../pages/allOption/Group/Group";
 import { Main } from "../pages/allOption/main/Main";
 import { Chat } from "../pages/messaging/chat/Chat";
+import { Quotes } from "../pages/Quotes/Quotes";
+import { MyQuotes } from "../pages/Quotes/MyQuotes";
+import { AddQuotes } from "../pages/Quotes/AddQuotes";
 
 const Routes = () => {
   let { path } = useRouteMatch();
@@ -30,8 +33,8 @@ const Routes = () => {
       <Navbar></Navbar>
       <Switch>
         <Route exact path="/login">
-                    <LandingPage/>
-                </Route>
+          <LandingPage />
+        </Route>
         <Route exact path="/genres">
           <Genres></Genres>
         </Route>
@@ -65,6 +68,15 @@ const Routes = () => {
         <Route exact path="/trivia">
           <Trivia />
         </Route>
+        <Route exact path="/quotes">
+          <Quotes />
+        </Route>
+        <Route exact path="/myQuotes">
+          <MyQuotes />
+        </Route>
+        <Route exact path="/addQuotes">
+          <AddQuotes />
+        </Route>
         <Route exact path="/people">
           <People></People>
         </Route>
@@ -77,17 +89,22 @@ const Routes = () => {
         <Route exact path="/group/:g/:q">
           <Group />
         </Route>
-        <Route exact path="/chat"> 
-                    <Chat/>
+        <Route exact path="/chat">
+          <Chat />
         </Route>
 
         <Route>
-          <p style={{textAlign:"center"}}>
-          <h1>Sorry, you’ve reached the end of the sidewalk.</h1><br/><br/>
-            Yes we’ll walk with a walk that is measured and slow, And we’ll go<br/>
-            where the chalk-white arrows go, For the children, they mark, and<br/>
-            the children, they know The place where the sidewalk ends.<br/><br/>
-            - Silverstein, Where the Sidewalk Ends
+          <p style={{ textAlign: "center" }}>
+            <h1>Sorry, you’ve reached the end of the sidewalk.</h1>
+            <br />
+            <br />
+            Yes we’ll walk with a walk that is measured and slow, And we’ll go
+            <br />
+            where the chalk-white arrows go, For the children, they mark, and
+            <br />
+            the children, they know The place where the sidewalk ends.
+            <br />
+            <br />- Silverstein, Where the Sidewalk Ends
           </p>
         </Route>
       </Switch>
