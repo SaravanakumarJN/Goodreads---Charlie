@@ -1,0 +1,18 @@
+.container{
+    min-width: 1024px;
+}
+
+.container > :nth-child(2){
+    padding-top : 70px ;
+    min-height: 60vh;
+}
+
+.read-more-less--more,
+.read-more-less--less{
+    color: #00635D;
+}
+
+.read-more-less--more:hover,
+.read-more-less--less:hover{
+    text-decoration: underline;
+}

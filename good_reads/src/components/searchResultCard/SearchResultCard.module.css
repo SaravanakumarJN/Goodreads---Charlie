@@ -29,4 +29,15 @@
 .right > h5{
     height:15px;
     overflow: hidden;
+    margin:-2px 0 5px;
+}
+
+.right > div{
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 1150px){
+    .card{
+        width:265px;
+    }
 }

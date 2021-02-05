@@ -1,0 +1,152 @@
+.groupName
+{
+    margin-top: 25px;
+    border-bottom:1px solid grey ;
+   float: left;
+}
+.bookBox
+{
+    height: 60px;
+    width: 620px;
+    margin: 50px auto;
+    display: flex;
+ 
+}
+.bookBox div{
+    height: 180px;
+    margin-left: 30px;
+    width: 140px;
+}
+
+.bookBox  h1
+{
+    font-size: 11px;
+}
+.bookBox img 
+{
+    height: 50%;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.box1
+{
+    
+    height: 300px;
+    width: 500px;
+    margin: 10px auto;
+}
+.box
+{
+    
+    height: 780px;
+    width: 550px;
+    margin: 50px auto;
+    border-bottom: 1px solid grey;
+}
+.box img{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.box button{
+    margin-top: 30px;
+    margin-left: 240px;
+}
+.aBox
+{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.chatContainer
+{
+    height: fit-content;
+    width: 800px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    border-top: 1px solid rgb(100, 100, 100);
+}
+.chatInputBox
+{
+    height: 50px;
+    width: 700px;
+    margin: 20px auto;
+   
+}
+.chatInputBox>input
+{
+    padding: 10px;
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+.chatInputBox>button{
+    height: 40px;
+    width: 50px;
+    float: left;
+    margin-left: 20px;
+}
+.chat{
+    margin-left: 50px;
+   margin-top: 20px;
+    height: fit-content;
+    width: 700px;
+    border-bottom: 1px solid burlywood;
+}
+.chat>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+}
+.chat>p{
+    float: left;
+    margin-left: 15px;
+
+}
+.send
+{
+    padding: 5px;
+    background-color: #409D69;
+    border: none;
+    border-radius: 5px;
+}
+.message
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #036460;
+}
+.replaySection
+{
+    clear: both;
+    height: fit-content;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.replaySection>p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.replay{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.replayInput
+{
+    padding: 5px;
+    border: none;
+    margin-left: 250px;
+    border-bottom: 1px solid black;
+}
+.sendInput
+{
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px
+}

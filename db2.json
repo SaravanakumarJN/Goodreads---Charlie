@@ -1,0 +1,1364 @@
+{
+  "people": [
+    {
+      "name": "gokhu",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU",
+      "following": [],
+      "followers": [],
+      "private_shelf": [
+        {
+          "kind": "books#volume",
+          "id": "nKdJDwAAQBAJ",
+          "etag": "a6ujn10Fzl4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/nKdJDwAAQBAJ",
+          "volumeInfo": {
+            "title": "Om Illustrated Classics the Case Book of Sherlock Homes",
+            "authors": [
+              "ARTHUR CONAN DOYLE"
+            ],
+            "publisher": "Om Books International",
+            "publishedDate": "2018-08",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789386410016"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "938641001X"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": true
+            },
+            "pageCount": 237,
+            "printType": "BOOK",
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.1.0.preview.3",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=nKdJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=nKdJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=nKdJDwAAQBAJ&printsec=frontcover&dq=sherlock+holmes&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=nKdJDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nKdJDwAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 46.02,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 46.02,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=nKdJDwAAQBAJ&rdid=book-nKdJDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 46020000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 46020000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Om_Illustrated_Classics_the_Case_Book_of-sample-epub.acsm?id=nKdJDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Om_Illustrated_Classics_the_Case_Book_of-sample-pdf.acsm?id=nKdJDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=nKdJDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "i_SorqUvsOEC",
+          "etag": "jSmGxHgviX0",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/i_SorqUvsOEC",
+          "volumeInfo": {
+            "title": "A Game of Thrones",
+            "subtitle": "The Graphic Novel. Volume 1",
+            "authors": [
+              "Daniel Abraham",
+              "George R. R. Martin",
+              "Tommy Patterson",
+              "Ivan Nunes",
+              "Marshall Dillon"
+            ],
+            "publisher": "Bantam",
+            "publishedDate": "2012",
+            "description": "The kingdom of the royal Stark family faces its ultimate challenge in the onset of a generation-long winter, the poisonous plots of the rival Lannisters, the emergence of the Neverborn demons and the arrival of barbarian hordes. 75,000 first printing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9780440423218"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "044042321X"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 240,
+            "printType": "BOOK",
+            "categories": [
+              "Comics & Graphic Novels"
+            ],
+            "averageRating": 3,
+            "ratingsCount": 10,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.2.0.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "comicsContent": true,
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=i_SorqUvsOEC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=i_SorqUvsOEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=i_SorqUvsOEC&dq=game+of+thrones&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=i_SorqUvsOEC&dq=game+of+thrones&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones.html?hl=&id=i_SorqUvsOEC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=i_SorqUvsOEC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "The kingdom of the royal Stark family faces its ultimate challenge in the onset of a generation-long winter, the poisonous plots of the rival Lannisters, the emergence of the Neverborn demons and the arrival of barbarian hordes. 75,000 ..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "pBr5MQEACAAJ",
+          "etag": "TlbCiX0oud8",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/pBr5MQEACAAJ",
+          "volumeInfo": {
+            "title": "Da Vinci code",
+            "subtitle": "roman",
+            "authors": [
+              "Dan Brown"
+            ],
+            "publisher": "Jean-Claude Lattès",
+            "publishedDate": "2004",
+            "description": "Un éminent spécialiste de symbologie de Harvard est convoqué au Louvre pour examiner une série de pictogrammes en rapport avec l'œuvre de Vinci. En déchiffrant le code, il met au jour l'un des plus grands mystères de notre temps... et devient un homme traqué.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "2709624931"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9782709624930"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 574,
+            "printType": "BOOK",
+            "categories": [
+              "Art museum curators"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "un",
+            "previewLink": "http://books.google.co.in/books?id=pBr5MQEACAAJ&dq=da+vinci+code&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=pBr5MQEACAAJ&dq=da+vinci+code&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Da_Vinci_code.html?hl=&id=pBr5MQEACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=pBr5MQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "Analyse : Roman policier (suspense)."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "FzVjBgAAQBAJ",
+          "etag": "nV67YkqssGA",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/FzVjBgAAQBAJ",
+          "volumeInfo": {
+            "title": "The Alchemist",
+            "authors": [
+              "Paulo Coelho"
+            ],
+            "publisher": "HarperCollins",
+            "publishedDate": "2015-02-24",
+            "description": "A special 25th anniversary edition of the extraordinary international bestseller, including a new Foreword by Paulo Coelho. Combining magic, mysticism, wisdom and wonder into an inspiring tale of self-discovery, The Alchemist has become a modern classic, selling millions of copies around the world and transforming the lives of countless readers across generations. Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9780062416216"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "0062416219"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": true
+            },
+            "pageCount": 208,
+            "printType": "BOOK",
+            "categories": [
+              "Fiction"
+            ],
+            "averageRating": 4.5,
+            "ratingsCount": 18,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.6.5.0.preview.3",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=FzVjBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=FzVjBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=FzVjBgAAQBAJ&printsec=frontcover&dq=the+alchemist&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=FzVjBgAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=FzVjBgAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 271.28,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 75,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=FzVjBgAAQBAJ&rdid=book-FzVjBgAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 271280000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 75000000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/The_Alchemist-sample-epub.acsm?id=FzVjBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/The_Alchemist-sample-pdf.acsm?id=FzVjBgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=FzVjBgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "This story, dazzling in its powerful simplicity and inspiring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "4EBHUjNLuyIC",
+          "etag": "5NMEgiDuEQc",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/4EBHUjNLuyIC",
+          "volumeInfo": {
+            "title": "And Then There Were None",
+            "authors": [
+              "Agatha Christie"
+            ],
+            "publisher": "Harper Collins",
+            "publishedDate": "2011-03-29",
+            "description": "The World's Bestselling Mystery \"Ten . . .\" Ten strangers are lured to an isolated island mansion off the Devon coast by a mysterious \"U.N. Owen.\" \"Nine . . .\" At dinner a recorded message accuses each of them in turn of having a guilty secret, and by the end of the night one of the guests is dead. \"Eight . . .\" Stranded by a violent storm, and haunted by a nursery rhyme counting down one by one . . . one by one they begin to die. \"Seven . . .\" Who among them is the killer and will any of them survive?",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9780062073488"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "0062073486"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 320,
+            "printType": "BOOK",
+            "categories": [
+              "Fiction"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 2096,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=4EBHUjNLuyIC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=4EBHUjNLuyIC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=4EBHUjNLuyIC&dq=and+then+there&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=4EBHUjNLuyIC&dq=and+then+there&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/And_Then_There_Were_None.html?hl=&id=4EBHUjNLuyIC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=4EBHUjNLuyIC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "The World&#39;s Bestselling Mystery &quot;Ten ."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "qYcJVplnx5cC",
+          "etag": "PDMDudycVbc",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/qYcJVplnx5cC",
+          "volumeInfo": {
+            "title": "The Girl with the Dragon Tattoo",
+            "subtitle": "Book One Of The Millennium Trilogy",
+            "authors": [
+              "Stieg Larsson"
+            ],
+            "publisher": "Penguin Canada",
+            "publishedDate": "2010-01-05",
+            "description": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn't anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story. I was completely absorbed.” —Michael Connelly \"I doubt you will read a better book this year.” —Val McDermid Forty years ago, Harriet Vanger disappeared off the secluded island owned and inhabited by the powerful Vanger family. There was no corpse, no witnesses, no evidence. But her uncle, Henrik, is convinced that she was murdered by someone from her own deeply dysfunctional family. Disgraced journalist Mikael Blomkvist is hired to investigate, but he quickly finds himself in over his head. He hires a competent assistant: the gifted and conscience-free computer specialist Lisbeth Salander, and the two unravel a dark and appalling family history. But the Vangers are a secretive clan, and Blomkvist and Salander are about to find out just how far they are prepared to go to protect themselves.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9780143177289"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "0143177281"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 480,
+            "printType": "BOOK",
+            "categories": [
+              "Fiction"
+            ],
+            "averageRating": 3.5,
+            "ratingsCount": 2830,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.12.10.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Girl_with_the_Dragon_Tattoo.html?hl=&id=qYcJVplnx5cC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true
+            },
+            "pdf": {
+              "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=qYcJVplnx5cC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn&#39;t anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "kLAoswEACAAJ",
+          "etag": "enP7vXGNNZg",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/kLAoswEACAAJ",
+          "volumeInfo": {
+            "title": "Harry Potter and the Cursed Child",
+            "authors": [
+              "J. K. Rowling",
+              "Jack Thorne",
+              "John Tiffany"
+            ],
+            "publisher": "Sphere",
+            "publishedDate": "2017-07-25",
+            "description": "The official playscript of the original West End production of Harry Potter and the Cursed Child. It was always difficult being Harry Potter and it isn't much easier now that he is an overworked employee of the Ministry of Magic, a husband, and father of three school-age children. While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places. The playscript for Harry Potter and the Cursed Child was originally released as a 'special rehearsal edition' alongside the opening of Jack Thorne's play in London's West End in summer 2016. Based on an original story by J.K. Rowling, John Tiffany and Jack Thorne, the play opened to rapturous reviews from theatregoers and critics alike, while the official playscript became an immediate global bestseller. This revised paperback edition updates the 'special rehearsal edition' with the conclusive and final dialogue from the play, which has subtly changed since its rehearsals, as well as a conversation piece between director John Tiffany and writer Jack Thorne, who share stories and insights about reading playscripts. This edition also includes useful background information including the Potter family tree and a timeline of events from the wizarding world prior to the beginning of Harry Potter and the Cursed Child.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0751565369"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780751565362"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 352,
+            "printType": "BOOK",
+            "categories": [
+              "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=kLAoswEACAAJ&dq=harry+potter&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=kLAoswEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Cursed_Child.html?hl=&id=kLAoswEACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=kLAoswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "As an overworked employee of the Ministry of Magic, a husband, and a father, Harry Potter struggles with a past that refuses to stay where it belongs while his youngest son, Albus, finds the weight of the family legacy difficult to bear."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "uPqLDQAAQBAJ",
+          "etag": "KllLTgY8Ez0",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/uPqLDQAAQBAJ",
+          "volumeInfo": {
+            "title": "A Dance with Dragons",
+            "authors": [
+              "George R. R. Martin"
+            ],
+            "publisher": "Bantam",
+            "publishedDate": "2015",
+            "description": "New threats emerge to endanger the future of the Seven Kingdoms, as Daenerys Targaryen, ruling in the East, fights off a multitude of enemies, while Jon Snow, Lord Commander of the Night's Watch, faces his foes both in the Watch and beyond the great Wallof ice and stone.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9781101886038"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "110188603X"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 1152,
+            "printType": "BOOK",
+            "categories": [
+              "Fiction"
+            ],
+            "averageRating": 3.5,
+            "ratingsCount": 363,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.0.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=uPqLDQAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=uPqLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=uPqLDQAAQBAJ&dq=A+Song+of+Ice+and+Fire&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=uPqLDQAAQBAJ&dq=A+Song+of+Ice+and+Fire&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/A_Dance_with_Dragons.html?hl=&id=uPqLDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=uPqLDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "New threats emerge to endanger the future of the Seven Kingdoms, as Daenerys Targaryen, ruling in the East, fights off a multitude of enemies, while Jon Snow, Lord Commander of the Night&#39;s Watch, faces his foes both in the Watch and beyond ..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "zVq8BF_5vSUC",
+          "etag": "D8N7ADP4Mj8",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/zVq8BF_5vSUC",
+          "volumeInfo": {
+            "title": "The Shining",
+            "authors": [
+              "Stephen King"
+            ],
+            "publisher": "Hachette UK",
+            "publishedDate": "2007-05-31",
+            "description": "Before Doctor Sleep, there was The Shining, a classic of modern American horror from the undisputed master, Stephen King. Danny is only five years old, but in the words of old Mr Hallorann he is a 'shiner', aglow with psychic voltage. When his father becomes caretaker of the Overlook Hotel, Danny's visions grow out of control. As winter closes in and blizzards cut them off, the hotel seems to develop a life of its own. It is meant to be empty. So who is the lady in Room 217 and who are the masked guests going up and down in the elevator? And why do the hedges shaped like animals seem so alive? Somewhere, somehow, there is an evil force in the hotel - and that, too, is beginning to shine . . .",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9781848940994"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "1848940998"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 512,
+            "printType": "BOOK",
+            "categories": [
+              "Fiction"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 220,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.12.10.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=zVq8BF_5vSUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=zVq8BF_5vSUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=zVq8BF_5vSUC&printsec=frontcover&dq=the+shining&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=zVq8BF_5vSUC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zVq8BF_5vSUC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 460.2,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 216.01,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=zVq8BF_5vSUC&rdid=book-zVq8BF_5vSUC&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 460200000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 216010000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/The_Shining-sample-epub.acsm?id=zVq8BF_5vSUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=zVq8BF_5vSUC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "Before Doctor Sleep, there was The Shining, a classic of modern American horror from the undisputed master, Stephen King."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "hxL2qWMAgv8C",
+          "etag": "mFdAPeD4m74",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/hxL2qWMAgv8C",
+          "volumeInfo": {
+            "title": "Gone Girl",
+            "authors": [
+              "Gillian Flynn"
+            ],
+            "publisher": "Hachette UK",
+            "publishedDate": "2012-05-24",
+            "description": "THE ADDICTIVE No.1 BESTSELLER AND INTERNATIONAL PHENOMENON OVER 20 MILLION COPIES SOLD WORLDWIDE THE BOOK THAT DEFINES PSYCHOLOGICAL THRILLER Who are you? What have we done to each other? These are the questions Nick Dunne finds himself asking on the morning of his fifth wedding anniversary, when his wife Amy suddenly disappears. The police suspect Nick. Amy's friends reveal that she was afraid of him, that she kept secrets from him. He swears it isn't true. A police examination of his computer shows strange searches. He says they weren't made by him. And then there are the persistent calls on his mobile phone. So what really did happen to Nick's beautiful wife? 'Flynn is a brilliantly accomplished psychological crime writer and this latest book is so dark, so twisted and so utterly compelling that it actually messes with your mind' DAILY MAIL 'A near-masterpiece. Flynn is an extraordinary writer who, with every sentence, makes words do things that other writers merely dream of' SOPHIE HANNAH, Sunday Express 'You think you're reading a good, conventional thriller and then it grows into a fascinating portrait of one averagely mismatched relationship...Nothing's as it seems - Flynn is a fabulous plotter, and a very sharp observer of modern life in the aftermath of the credit crunch' THE TIMES 'One of the most popular thrillers of the year is also one of the smartest... Flynn's book cleverly outpaces its neo-noir trappings and consistently surprises the reader.' FINANCIAL TIMES",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9780297859406"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "0297859404"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 320,
+            "printType": "BOOK",
+            "categories": [
+              "Fiction"
+            ],
+            "averageRating": 3.5,
+            "ratingsCount": 921,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.20.23.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=hxL2qWMAgv8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=hxL2qWMAgv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=hxL2qWMAgv8C&printsec=frontcover&dq=gone+girl&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=hxL2qWMAgv8C&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hxL2qWMAgv8C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 350.46,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 189.25,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=hxL2qWMAgv8C&rdid=book-hxL2qWMAgv8C&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 350460000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 189250000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Gone_Girl-sample-epub.acsm?id=hxL2qWMAgv8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=hxL2qWMAgv8C&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "What have we done to each other? These are the questions Nick Dunne finds himself asking on the morning of his fifth wedding anniversary, when his wife Amy suddenly disappears. The police suspect Nick."
+          }
+        }
+      ],
+      "to_read": [
+        {
+          "id": "nKdJDwAAQBAJ"
+        }
+      ],
+      "current_reading": [
+        {
+          "id": "pBr5MQEACAAJ"
+        }
+      ],
+      "completed_books": [
+        {
+          "id": "i_SorqUvsOEC"
+        },
+        {
+          "id": "kLAoswEACAAJ"
+        },
+        {
+          "id": "zVq8BF_5vSUC"
+        },
+        {
+          "id": "qYcJVplnx5cC"
+        }
+      ],
+      "reviews": [],
+      "discussions": [],
+      "quiz": {
+        "total_question": 10,
+        "correct": 7,
+        "skipped": 3
+      },
+      "id": 1
+    }
+  ],
+  "community": [
+    {
+      "name": "Reading",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU",
+      "type_of_post": "reading",
+      "book_data": {
+        "kind": "books#volume",
+        "id": "qYcJVplnx5cC",
+        "etag": "PDMDudycVbc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qYcJVplnx5cC",
+        "volumeInfo": {
+          "title": "The Girl with the Dragon Tattoo",
+          "subtitle": "Book One Of The Millennium Trilogy",
+          "authors": [
+            "Stieg Larsson"
+          ],
+          "publisher": "Penguin Canada",
+          "publishedDate": "2010-01-05",
+          "description": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn't anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story. I was completely absorbed.” —Michael Connelly \"I doubt you will read a better book this year.” —Val McDermid Forty years ago, Harriet Vanger disappeared off the secluded island owned and inhabited by the powerful Vanger family. There was no corpse, no witnesses, no evidence. But her uncle, Henrik, is convinced that she was murdered by someone from her own deeply dysfunctional family. Disgraced journalist Mikael Blomkvist is hired to investigate, but he quickly finds himself in over his head. He hires a competent assistant: the gifted and conscience-free computer specialist Lisbeth Salander, and the two unravel a dark and appalling family history. But the Vangers are a secretive clan, and Blomkvist and Salander are about to find out just how far they are prepared to go to protect themselves.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780143177289"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0143177281"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 480,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 3.5,
+          "ratingsCount": 2830,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.12.10.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Girl_with_the_Dragon_Tattoo.html?hl=&id=qYcJVplnx5cC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=qYcJVplnx5cC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn&#39;t anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story."
+        }
+      },
+      "rating": "",
+      "review": "",
+      "likes": 5,
+      "comments": [
+        {
+          "id": 99,
+          "user": "John Doe",
+          "comment": "Added comment",
+          "commenterImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.q85HUE21WMuwJaks82FqdAHaHW%26pid%3DApi&f=1"
+        }
+      ]
+    },
+    {
+      "name": "Hasread",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU",
+      "type_of_post": "read",
+      "book_data": {
+        "kind": "books#volume",
+        "id": "FzVjBgAAQBAJ",
+        "etag": "nV67YkqssGA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/FzVjBgAAQBAJ",
+        "volumeInfo": {
+          "title": "The Alchemist",
+          "authors": [
+            "Paulo Coelho"
+          ],
+          "publisher": "HarperCollins",
+          "publishedDate": "2015-02-24",
+          "description": "A special 25th anniversary edition of the extraordinary international bestseller, including a new Foreword by Paulo Coelho. Combining magic, mysticism, wisdom and wonder into an inspiring tale of self-discovery, The Alchemist has become a modern classic, selling millions of copies around the world and transforming the lives of countless readers across generations. Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780062416216"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0062416219"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 208,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 4.5,
+          "ratingsCount": 18,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.6.5.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=FzVjBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=FzVjBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=FzVjBgAAQBAJ&printsec=frontcover&dq=the+alchemist&hl=&cd=1&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=FzVjBgAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=FzVjBgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 271.28,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 75,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=FzVjBgAAQBAJ&rdid=book-FzVjBgAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 271280000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 75000000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Alchemist-sample-epub.acsm?id=FzVjBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Alchemist-sample-pdf.acsm?id=FzVjBgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=FzVjBgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This story, dazzling in its powerful simplicity and inspiring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids."
+        }
+      },
+      "rating": "",
+      "review": "",
+      "likes": 5,
+      "comments": [
+        {
+          "id": 99,
+          "user": "John Doe",
+          "comment": "Added comment",
+          "commenterImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.q85HUE21WMuwJaks82FqdAHaHW%26pid%3DApi&f=1"
+        }
+      ]
+    },
+    {
+      "name": "Want Toread",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.3OcSxB5CZPfkP5NB8z1CDQHaHa%26pid%3DApi&f=1",
+      "type_of_post": "wantToRead",
+      "book_data": {
+        "kind": "books#volume",
+        "id": "qYcJVplnx5cC",
+        "etag": "PDMDudycVbc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qYcJVplnx5cC",
+        "volumeInfo": {
+          "title": "The Girl with the Dragon Tattoo",
+          "subtitle": "Book One Of The Millennium Trilogy",
+          "authors": [
+            "Stieg Larsson"
+          ],
+          "publisher": "Penguin Canada",
+          "publishedDate": "2010-01-05",
+          "description": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn't anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story. I was completely absorbed.” —Michael Connelly \"I doubt you will read a better book this year.” —Val McDermid Forty years ago, Harriet Vanger disappeared off the secluded island owned and inhabited by the powerful Vanger family. There was no corpse, no witnesses, no evidence. But her uncle, Henrik, is convinced that she was murdered by someone from her own deeply dysfunctional family. Disgraced journalist Mikael Blomkvist is hired to investigate, but he quickly finds himself in over his head. He hires a competent assistant: the gifted and conscience-free computer specialist Lisbeth Salander, and the two unravel a dark and appalling family history. But the Vangers are a secretive clan, and Blomkvist and Salander are about to find out just how far they are prepared to go to protect themselves.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780143177289"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0143177281"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 480,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 3.5,
+          "ratingsCount": 2830,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.12.10.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Girl_with_the_Dragon_Tattoo.html?hl=&id=qYcJVplnx5cC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=qYcJVplnx5cC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn&#39;t anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story."
+        }
+      },
+      "rating": "",
+      "review": "",
+      "likes": 5,
+      "comments": [
+        {
+          "id": 99,
+          "user": "John Doe",
+          "comment": "Added comment",
+          "commenterImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.q85HUE21WMuwJaks82FqdAHaHW%26pid%3DApi&f=1"
+        }
+      ]
+    },
+    {
+      "name": "Just Rating Test",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU",
+      "type_of_post": "rating",
+      "book_data": {
+        "kind": "books#volume",
+        "id": "qYcJVplnx5cC",
+        "etag": "PDMDudycVbc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qYcJVplnx5cC",
+        "volumeInfo": {
+          "title": "The Girl with the Dragon Tattoo",
+          "subtitle": "Book One Of The Millennium Trilogy",
+          "authors": [
+            "Stieg Larsson"
+          ],
+          "publisher": "Penguin Canada",
+          "publishedDate": "2010-01-05",
+          "description": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn't anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story. I was completely absorbed.” —Michael Connelly \"I doubt you will read a better book this year.” —Val McDermid Forty years ago, Harriet Vanger disappeared off the secluded island owned and inhabited by the powerful Vanger family. There was no corpse, no witnesses, no evidence. But her uncle, Henrik, is convinced that she was murdered by someone from her own deeply dysfunctional family. Disgraced journalist Mikael Blomkvist is hired to investigate, but he quickly finds himself in over his head. He hires a competent assistant: the gifted and conscience-free computer specialist Lisbeth Salander, and the two unravel a dark and appalling family history. But the Vangers are a secretive clan, and Blomkvist and Salander are about to find out just how far they are prepared to go to protect themselves.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780143177289"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0143177281"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 480,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 3.5,
+          "ratingsCount": 2830,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.12.10.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Girl_with_the_Dragon_Tattoo.html?hl=&id=qYcJVplnx5cC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=qYcJVplnx5cC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn&#39;t anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story."
+        }
+      },
+      "rating": 3,
+      "review": "",
+      "likes": 5,
+      "comments": [
+        {
+          "id": 99,
+          "user": "John Doe",
+          "comment": "Added comment",
+          "commenterImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.q85HUE21WMuwJaks82FqdAHaHW%26pid%3DApi&f=1"
+        }
+      ]
+    },
+    {
+      "name": "Rating and Review Test",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU",
+      "type_of_post": "review",
+      "book_data": {
+        "kind": "books#volume",
+        "id": "qYcJVplnx5cC",
+        "etag": "PDMDudycVbc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qYcJVplnx5cC",
+        "volumeInfo": {
+          "title": "The Girl with the Dragon Tattoo",
+          "subtitle": "Book One Of The Millennium Trilogy",
+          "authors": [
+            "Stieg Larsson"
+          ],
+          "publisher": "Penguin Canada",
+          "publishedDate": "2010-01-05",
+          "description": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn't anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story. I was completely absorbed.” —Michael Connelly \"I doubt you will read a better book this year.” —Val McDermid Forty years ago, Harriet Vanger disappeared off the secluded island owned and inhabited by the powerful Vanger family. There was no corpse, no witnesses, no evidence. But her uncle, Henrik, is convinced that she was murdered by someone from her own deeply dysfunctional family. Disgraced journalist Mikael Blomkvist is hired to investigate, but he quickly finds himself in over his head. He hires a competent assistant: the gifted and conscience-free computer specialist Lisbeth Salander, and the two unravel a dark and appalling family history. But the Vangers are a secretive clan, and Blomkvist and Salander are about to find out just how far they are prepared to go to protect themselves.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780143177289"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0143177281"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 480,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 3.5,
+          "ratingsCount": 2830,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.12.10.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=qYcJVplnx5cC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=qYcJVplnx5cC&dq=TheGirl+with+the+Dragon+Tattoo&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Girl_with_the_Dragon_Tattoo.html?hl=&id=qYcJVplnx5cC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=qYcJVplnx5cC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "“The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn&#39;t anything new on the horizon, along comes Stieg Larsson with this wonderfully unique story."
+        }
+      },
+      "rating": 2,
+      "review": "This is the review of the book, The Girl with the Dragon Tattoo is a striking novel. Just when I was thinking there wasn&#39;t anything new on the horizon.",
+      "likes": 5,
+      "comments": [
+        {
+          "id": 99,
+          "user": "John Doe",
+          "comment": "Added comment",
+          "commenterImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.q85HUE21WMuwJaks82FqdAHaHW%26pid%3DApi&f=1"
+        }
+      ]
+    }
+  ]
+}

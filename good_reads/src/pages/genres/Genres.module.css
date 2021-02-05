@@ -1,0 +1,33 @@
+.container{
+    width:580px;
+    margin:0px 20px 20px 18%;
+}
+
+.container h2{
+    margin:0 0 20px; 
+}
+
+.inputField{
+    height:60px;
+    background-color: #EEEEEE;
+    padding: 10px 20px;
+}
+
+.inputField input{
+    width:510px;
+    padding: 7px 10px;
+    border:1px solid #DCD6CC;
+    font-size: 14px;
+}
+
+.inputField button{
+    width:100px;
+    padding:5px 10px;
+    font-size: 14px;
+    background-color: #F4F1EA;
+    border:1px solid #D6D0C4;
+}
+
+.inputField button:hover{
+    background-color: #ede6d6;
+}

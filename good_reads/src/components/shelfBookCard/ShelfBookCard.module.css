@@ -3,10 +3,7 @@
     flex-wrap: nowrap;
     height:120px;
     width:600px;
-    border: 1px solid  #e6e6e6;
-    box-shadow: 2px 2px 5px #d9d9d9;
-    border-radius:5px;
-    margin:10px;
+    border-bottom: 1px solid #E8E8E8;
 }
 
 .card > div{

@@ -15,6 +15,7 @@ const Genres = () => {
 
     return (
         <div className = {styles.container}>
+            <h2>Genres</h2>
             <div className = {styles.inputField}>
                 <input
                     type = "text"

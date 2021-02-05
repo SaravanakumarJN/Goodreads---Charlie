@@ -23,7 +23,7 @@ const getBooksFailure = (payload) =>{
 
 const getBooks = (payload) => (dispatch) =>{
     dispatch(getBooksRequest);
-    axios.get("http://localhost:3000/people")
+    axios.get("https://good-reads-users-mock.herokuapp.com/users")
     .then(res => dispatch(getBooksSuccess(res.data[0])))
     .catch(err => {
         dispatch(getBooksFailure(err))

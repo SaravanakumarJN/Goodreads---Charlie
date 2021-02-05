@@ -145,7 +145,6 @@ console.log(signin)
             <p style={{fontSize: "13px",opacity:"0.5"}}>15 likes - <span>11 comments</span></p>
         </div>
       </div>
-      <Footer/>
     </>
   );
 };
