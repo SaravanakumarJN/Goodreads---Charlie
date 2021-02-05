@@ -45,8 +45,6 @@ const getUserRequestPerformer = (payload) => (dispatch) => {
     )
 }
 
-// const communityUpdateSuccess = () => {}
-
 const userUpdatePerformer = (payload) => (dispatch) => {
     const {id, private_shelf, to_read, current_reading, completed_books} = payload
     dispatch(request())
@@ -64,4 +62,17 @@ const userUpdatePerformer = (payload) => (dispatch) => {
     })
 }
 
-export {getUserRequestPerformer, userUpdatePerformer}
+const communityUpdatePerformer = (payload) => (dispatch) => {
+    dispatch(request())
+    return axios.post(`https://good-reads-users-mock.herokuapp.com/community_updates`,{
+        ...payload
+    })
+    .then(() => {
+        dispatch(communityUpdateSuccess())
+    })
+    .catch(() => {
+        dispatch(failure())
+    })
+}
+
+export {getUserRequestPerformer, userUpdatePerformer, communityUpdatePerformer}

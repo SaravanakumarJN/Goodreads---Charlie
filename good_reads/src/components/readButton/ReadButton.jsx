@@ -4,14 +4,14 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import {useDispatch, useSelector} from 'react-redux'
-import { userUpdatePerformer } from '../../redux/userData/action'
+import { communityUpdatePerformer, userUpdatePerformer } from '../../redux/userData/action'
 import { getUserRequestPerformer } from '../../redux/userData/action'
 
 const ReadButton = ({selectedBook}) => {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const {id} = selectedBook
     const userData = useSelector(state => state.user.userData)
-    const {private_shelf, to_read, current_reading, completed_books} = userData
+    const {private_shelf, to_read, current_reading, completed_books, name, image_url} = userData
     const dispatch = useDispatch()
     const [renderer, setRenderer] = React.useState(1)
 
@@ -34,6 +34,17 @@ const ReadButton = ({selectedBook}) => {
         completed_books : completed_books_update
       }
       dispatch(userUpdatePerformer(payload)) 
+      const payload1 = {
+        name : name,
+        image_url : image_url,
+        type_of_post : "read",
+        book_data : selectedBook,
+        rating : "",
+        review : "",
+        likes : 0,
+        comments : []
+      }
+      dispatch(communityUpdatePerformer(payload1))
       setAnchorEl(null);
       setRenderer(prev => prev+1)
     }
@@ -49,6 +60,17 @@ const ReadButton = ({selectedBook}) => {
         completed_books : completed_books,
       }
       dispatch(userUpdatePerformer(payload)) 
+      const payload1 = {
+        name : name,
+        image_url : image_url,
+        type_of_post : "wantToRead",
+        book_data : selectedBook,
+        rating : "",
+        review : "",
+        likes : 0,
+        comments : []
+      }
+      dispatch(communityUpdatePerformer(payload1))
       setAnchorEl(null);
       setRenderer(prev => prev+1)
     }
@@ -64,6 +86,17 @@ const ReadButton = ({selectedBook}) => {
         completed_books : completed_books
       }
       dispatch(userUpdatePerformer(payload)) 
+      const payload1 = {
+        name : name,
+        image_url : image_url,
+        type_of_post : "reading",
+        book_data : selectedBook,
+        rating : "",
+        review : "",
+        likes : 0,
+        comments : []
+      }
+      dispatch(communityUpdatePerformer(payload1))
       setAnchorEl(null);
       setRenderer(prev => prev+1)
     }

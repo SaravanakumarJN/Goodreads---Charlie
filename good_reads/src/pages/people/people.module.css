@@ -47,8 +47,11 @@
     float: left;
 }
 .imgContainer>img{
-    height: 100%;
-    width: 100%;
+    width:65px;
+    height:65px;
+    border-radius: 50%;
+    border: 1px solid #D8D8D8;
+    object-fit: cover;
 }
 .detailsContainer
 {

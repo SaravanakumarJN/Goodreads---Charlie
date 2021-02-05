@@ -17,7 +17,7 @@ export const People = () => {
     setFollow(!follow)
   }
   return (
-    <>
+    <div>
     <>
       <div className={style.box1}>
         <br />
@@ -74,7 +74,7 @@ export const People = () => {
         </p>
       </div>
       </>
-    </>
+    </div>
     
   );
 };

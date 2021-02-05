@@ -22,7 +22,7 @@ export const Footer = () => {
           <br />
           <br />
           <br />
-          <p style={{ fontSize: "18px", color: "#767676" }}>Work With us</p>
+          <p style={{ fontSize: "18px", color: "#767676" }}>WORK WITH US</p>
           <br />
           <p>Authors</p>
           <p>Advertise</p>
@@ -33,7 +33,7 @@ export const Footer = () => {
           <br />
           <br />
           <br />
-          <p style={{ fontSize: "18px", color: "#767676" }}>Connect</p>
+          <p style={{ fontSize: "18px", color: "#767676" }}>CONNECT</p>
           <br />
           <a href="https://www.goodreads.com/amazon">connect with amazon</a>
         </div>
