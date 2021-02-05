@@ -15,7 +15,7 @@ const ShowBookCard = () => {
 
     React.useEffect(() => {
         dispatch(bookSearchPerformerByID(bookId))
-    }, [selectedBook])
+    }, [bookId])
 
     if(selectedBook !== null){
         const {volumeInfo} = selectedBook
