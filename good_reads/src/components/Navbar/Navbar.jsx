@@ -55,7 +55,7 @@ const Navbar = () => {
               Discussions
             </Link>
             <br />
-            <Link to="#" className={styles.dropdown_link}>
+            <Link to="/people" className={styles.dropdown_link}>
               People
             </Link>
             <br />
@@ -82,7 +82,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.menu__icon}>
-          <Link to="#">
+          <Link to="/chat">
             <i class="fas fa-comments"></i>
           </Link>
         </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.menu__icon}>
-          <Link to="#">
+          <Link to="/group">
             <i class="fas fa-users"></i>
           </Link>
         </div>

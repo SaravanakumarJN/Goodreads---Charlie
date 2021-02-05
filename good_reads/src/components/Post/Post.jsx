@@ -17,8 +17,8 @@ const Post = (props) => {
     const [commentInput, setCommentInput] = React.useState("")
     const [commentData, setCommentData] = React.useState([])
 
-    const currUserProfile = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.3OcSxB5CZPfkP5NB8z1CDQHaHa%26pid%3DApi&f=1"
-    const currentUser ="Mandar Satam";
+    const currUserProfile = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU"
+    const currentUser ="Gokhu";
 
     const commentObj = {
         id: uuid(),
