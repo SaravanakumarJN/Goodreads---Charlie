@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./Post.module.css"
+import styles from "./PostStyle.module.css"
 import Rating from '@material-ui/lab/Rating';
 import {Link} from "react-router-dom"
 import {useDispatch} from "react-redux"
@@ -36,8 +36,6 @@ const Post = (props) => {
 
     let thumbnail;
     "imageLinks" in props.book_data.volumeInfo ?  thumbnail = props.book_data.volumeInfo.imageLinks.thumbnail : thumbnail = "https://via.placeholder.com/140x200"
-
-    console.log(props);
 
     return (
         <div className={styles.post}>
@@ -115,42 +113,8 @@ const Post = (props) => {
                         </form>
                     </div>     
                 </div>
-                {/* <button onClick={() =>  handleComment(id, commentObj)}>Comment</button> */}
             </div>
         </div>
-        // <div className={styles.post}>
-        //     <div className={styles.post_profile}>
-        //         <i class="fas fa-user"></i>
-        //     </div>
-        //     <div className={styles.post__cont}>
-        //         <div className={styles.post__top}>
-        //             <p className={styles.name_action}><b>Mandar Satam</b> has reviewed</p>
-        //             <p>Rating:</p>
-        //             <Rating name="read-only" value="3" readOnly />
-        //             <p>Whatever the review is. Lorem ipsum golem lavda lasun</p>
-        //             {/* <p className={styles.time_stamp}>Just Now</p> */}
-        //         </div>
-        //         <div className={styles.post__main}>
-        //             <div>
-        //                 <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360206420i/11870085._SY180_.jpg"/>
-        //             </div>
-        //             <div className={styles.main__content}>
-        //                 <h3>The Fault in Our Stars</h3>
-        //                 <p>by John Green</p>
-        //                 <button>Want to Read</button>
-        //                 <p>Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a…Continue reading</p>
-        //             </div>
-        //         </div>
-        //         <div className={styles.like_comment}>
-        //             <button>Like</button><span> . </span>
-        //             <button>Comment</button>
-        //         </div>
-        //     </div>
-        //     <div className={styles.post__bottom}>
-        //         <i class="fas fa-user"></i>
-        //         <input type="text" placeholder="Write a comment..."/>
-        //     </div>
-        // </div>
     )
 }
 

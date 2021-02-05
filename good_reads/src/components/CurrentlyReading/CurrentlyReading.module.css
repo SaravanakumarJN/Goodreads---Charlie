@@ -1,0 +1,19 @@
+.currently_reading_card{
+    display: flex;
+    justify-content: left;
+    margin: 1em 0;
+    margin-right: 1em;
+}
+
+.currently_reading_card_img{
+    flex-basis: 6em;
+}
+
+.currently_reading_card img{
+    width: 100%;
+}
+
+.currently_reading_card_content{
+    margin-left: 1em;
+    line-height: 1.5em;
+}
