@@ -35,7 +35,6 @@ const Home = () => {
         if(books[0] !== undefined){
             const tempData = books[0].filter(item => {
                 for(let i in wantToRead[0][0]){
-                    console.log(wantToRead[0][0][i]);
                     if(wantToRead[0][0][i].id === item.id){
                         return item;
                     }
@@ -49,7 +48,6 @@ const Home = () => {
         if(books[0] !== undefined){
             const tempData = books[0].filter(item => {
                 for(let i in currentlyReading[0][0]){
-                    console.log(currentlyReading[0][0][i]);
                     if(currentlyReading[0][0][i].id === item.id){
                         return item;
                     }
@@ -74,16 +72,26 @@ const Home = () => {
         dispatch(updatePosts(id, null))
     }
 
-    console.log(posts);
 
     return (
         <div className={styles.home__cont}>
             <div className={styles.home__left}>
                 <h4>CURRENTLY READING</h4>
-                <CurrentlyReading/>
+                {        
+                    currentlyReadingData?.map(item => 
+                        <CurrentlyReading key={item.id} 
+                        title={item.volumeInfo.title} 
+                        author={item.volumeInfo.authors[0]}
+                        image={item.volumeInfo.imageLinks !== undefined ? item.volumeInfo.imageLinks.smallThumbnail: "https://via.placeholder.com/100x100"}/>
+                    )
+                }
                 <hr className={styles.horizontal_rule}/>
                 <h4>WANT TO READ</h4>
-                <WantToRead/>
+                {
+                    wantToReadData?.map(item => 
+                        <WantToRead key={item.id} image={item.volumeInfo.imageLinks!== undefined ? item.volumeInfo.imageLinks.smallThumbnail : "https://via.placeholder.com/100x100"}/>
+                    )
+                }
                 <Link to="#">View all books</Link>
                 <hr className={styles.horizontal_rule}/>
                 <div className={styles.bookshelves}>
