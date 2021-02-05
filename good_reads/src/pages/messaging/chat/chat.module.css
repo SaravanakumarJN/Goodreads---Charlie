@@ -94,6 +94,17 @@
     width: fit-content;
     background-color: #579ffb;
     border-radius: 10px 10px 10px 0px;
+    box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+.contentBox2
+{
+    float: left;
+    height: 100%;
+    width: fit-content;
+    background-color: #579ffb;
+    border-radius: 10px 10px 0px 10px;
+    box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
 }
 .contentBox p{
