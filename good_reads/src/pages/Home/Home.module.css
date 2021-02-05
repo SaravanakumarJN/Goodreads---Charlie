@@ -144,4 +144,10 @@ h3{
 .bookshelves h4{
     margin-bottom: 10px;
 }
+.want_to_read{
+    margin: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
 

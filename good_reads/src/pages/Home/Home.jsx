@@ -87,23 +87,25 @@ const Home = () => {
                 }
                 <hr className={styles.horizontal_rule}/>
                 <h4>WANT TO READ</h4>
+                <div className={styles.want_to_read}>
                 {
                     wantToReadData?.map(item => 
                         <WantToRead key={item.id} image={item.volumeInfo.imageLinks!== undefined ? item.volumeInfo.imageLinks.smallThumbnail : "https://via.placeholder.com/100x100"}/>
                     )
                 }
+                </div>
                 <Link to="#">View all books</Link>
                 <hr className={styles.horizontal_rule}/>
                 <div className={styles.bookshelves}>
                     <h4>BOOKSHELF</h4>
                     <div>
-                        <Link to="#">4 Want to Read</Link>
+                        <Link to="#">{wantToReadData.length} Want to Read</Link>
                     </div>
                     <div>
-                        <Link to="#">2 Currently Reading</Link>
+                        <Link to="#">{currentlyReadingData.length} Currently Reading</Link>
                     </div>
                     <div>
-                        <Link to="#">1 Read</Link>
+                        <Link to="#">10 Read</Link>
                     </div>
                 </div>
             </div>
