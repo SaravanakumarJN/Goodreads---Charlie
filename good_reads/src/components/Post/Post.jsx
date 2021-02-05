@@ -65,7 +65,7 @@ const Post = (props) => {
                         <img src={thumbnail}/>
                     </div>
                     <div className={styles.main__content}>
-                        <h3>{title}</h3>
+                        <h3 style={{marginBottom:"10px"}}>{title}</h3>
                         <p>by {authors[0]}</p>
                         {/* <ReadButton/> */}
                         <ReactReadMoreReadLess

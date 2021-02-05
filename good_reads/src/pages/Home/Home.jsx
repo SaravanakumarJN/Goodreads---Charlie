@@ -110,7 +110,7 @@ const Home = () => {
             <div className={styles.home__mid}>
                 <h4>UPDATES</h4>
                 {
-                    posts[0]?.map(item => 
+                    posts[0]?.slice(0).reverse()?.map(item => 
                         <Post {...item} key={item.id} handleComment={handleComment} handleLike ={handleLike}/>
                         )
                 }
