@@ -30,10 +30,10 @@ const Home = () => {
     return (
         <div className={styles.home__cont}>
             <div className={styles.home__left}>
-                <h3 className = {styles.header}>Currently Reading</h3>
+                <h3>Currently Reading</h3>
             </div>
             <div className={styles.home__mid}>
-                <h3 className = {styles.header}>Updates</h3>
+                <h3>Updates</h3>
                 {
                     posts[0]?.map(item => 
                         <Post {...item} key={item.id} handleComment={handleComment}/>
@@ -41,7 +41,7 @@ const Home = () => {
                 }
             </div>
             <div className={styles.home__right}>
-                <h3 className = {styles.header}>News and Interviews</h3>
+                <h3>News and Interviews</h3>
             </div>
         </div>
     )

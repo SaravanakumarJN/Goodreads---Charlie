@@ -33,12 +33,10 @@ const Navbar = () => {
                     </div>
                 </div> 
             </div>
-            <div className = {styles.flexgrow1}></div>
             <div>
                 <Search></Search>
             </div>
-            <div className = {styles.flexgrow2}></div>
-            <div className={styles.navbar__right}>
+            <div>
                 <div className={styles.menu__icon}>
                     <Link to="#"><i class="fas fa-bell"></i></Link>
                 </div>
