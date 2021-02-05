@@ -38,11 +38,6 @@
 
 .main__content{
     margin-left: 0.8em;
-    overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 10; /* number of lines to show */
-   -webkit-box-orient: vertical;
 }
 
 .like_comment button{
