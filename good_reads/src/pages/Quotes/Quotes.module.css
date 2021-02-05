@@ -1,0 +1,17 @@
+.cont {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+.cont__left {
+  width: 75%;
+  border: 1px solid black;
+  height: 1080px;
+}
+.cont__right {
+  width: 20%;
+  border: 1px solid black;
+  height: 200px;
+}

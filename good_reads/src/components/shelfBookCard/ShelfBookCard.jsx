@@ -1,12 +1,11 @@
 import React from 'react'
 import styles from './ShelfBookCard.module.css'
+import {GoTriangleDown} from 'react-icons/go'
 import { useHistory } from 'react-router-dom'
 import {useDispatch} from 'react-redux'
 import { setSelectedBook } from '../../redux/genres/action'
-import { ReadButton } from '../readButton/ReadButton'
 
-const ShelfBookCard = ({item}) => {
-    const {volumeInfo, id} = item
+const ShelfBookCard = ({volumeInfo, id}) => {
     const {title, authors, averageRating, categories,ratingsCount, imageLinks, publishedDate } = volumeInfo
     const src = imageLinks === undefined ? "https://via.placeholder.com/60x100.png?text=No+image" : imageLinks.smallThumbnail
     const history = useHistory()
@@ -33,7 +32,12 @@ const ShelfBookCard = ({item}) => {
                 </div>
             </div>
             <div className = {styles.right}>
-                <ReadButton selectedBook = {item} ></ReadButton>
+                <button>
+                    Want to Read
+                </button>
+                <button>
+                    <GoTriangleDown></GoTriangleDown>
+                </button>
             </div>
         </div>
     )

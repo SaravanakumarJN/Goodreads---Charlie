@@ -2,15 +2,14 @@ import React from "react";
 import styles from "./DiscussionPost.module.css";
 import { Link, Redirect } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { getPostDis, getDataPost } from "../../redux/Discussion/action";
+import { getData } from "../../redux/Discussion/action";
 const DiscussionPost = () => {
   const dispatch = useDispatch();
   const [details, setDetails] = React.useState({
-    bookname: "",
+    bookName: "",
     topic: "",
     comment: "",
-    addBook: "",
-    author: "",
+    name: "",
   });
   const handleAdd = (e) => {
     const { name, value } = e.target;
@@ -18,23 +17,21 @@ const DiscussionPost = () => {
   };
   const handleSubmit = () => {
     const payload = {
-      bookname,
+      bookName,
       topic,
       comment,
-      addBook,
-      author,
+      name,
     };
-    dispatch(getPostDis(payload));
+    dispatch(getData(payload));
     setDetails({
       ...details,
-      bookname: "",
+      bookName: "",
       author: "",
       topic: "",
-      comment: "",
-      addBook: "",
+      name: "",
     });
   };
-  const { bookname, addBook, author, topic, comment } = details;
+  const { bookName, name, topic, comment } = details;
   return (
     <div>
       <div className={styles.cont}>
@@ -45,8 +42,8 @@ const DiscussionPost = () => {
             className={styles.input1}
             type="text"
             placeholder="Start typing the new book name...."
-            name="bookname"
-            value={bookname}
+            name="bookName"
+            value={bookName}
             onChange={handleAdd}
           />
         </label>
