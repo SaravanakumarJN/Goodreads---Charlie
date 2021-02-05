@@ -8,7 +8,6 @@
 }
 
 .cont__filter{
-    flex-basis: 20em;
     margin: 0 1em;
 }
 
@@ -25,6 +24,8 @@
 }
 
 .cont__main{
+    width:60%;
+    flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -42,4 +43,12 @@
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cont__sort > div{
+    margin:5px 0; 
+}
+
+.cont__sort span{
+    margin:5px
 }

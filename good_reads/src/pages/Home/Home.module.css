@@ -6,6 +6,7 @@ h3{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    background-color: #F9F7F4;
 }
 
 .home__left{
