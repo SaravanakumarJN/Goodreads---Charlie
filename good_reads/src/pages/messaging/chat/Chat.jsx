@@ -12,7 +12,7 @@ export const Chat = () => {
     
     React.useEffect(()=>{
         const t = new Date()
-        setPerson1("Manish")
+        setPerson1("Saravana")
         let tym = t.getHours()+":"+ t.getMinutes()+" "
         let a =t.getHours()>12?"pm":"am"
         setTime(tym+a)
@@ -32,6 +32,7 @@ export const Chat = () => {
             time:time,
             id:uuid()
         }
+        setMessage("")
         return axios.post("https://manish-chat-api.herokuapp.com/posts",payload)
     }
 
@@ -49,7 +50,7 @@ export const Chat = () => {
                 chat?.map(item=>{
                     return <>
                     {item.person1 === person1?    <div className={style.chatbox2}>
-                <div className={style.contentBox}>
+                <div className={style.contentBox2}>
                     <p className={style.personName2}>{item.person1}</p>
                     <p className={style.time2}>{item.time}</p>
                     <p className={style.message}>{item.message}</p>
