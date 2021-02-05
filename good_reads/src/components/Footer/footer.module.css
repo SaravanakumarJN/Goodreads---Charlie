@@ -1,18 +1,15 @@
-.container {
-  clear: both;
-  height: 250px;
-  width: 100%;
-  background-color: #f4f1ea;
-  display: flex;
-  justify-content: stretch;
-  align-items: center;
-  margin-top: 20px;
+.container
+{
+    clear: both;
+    height: 300px;
+    width: 100%;
+    background-color: #F4F1EA ;
 }
-.Box {
-  height: 250px;
-  width: 200px;
-  padding-left: 30px;
-}
-p {
-  font-size: 15px;
+.Box
+{
+    height: 280px;
+    width: 300px;
+    float: left;
+    margin-left: 70px;
+ 
 }

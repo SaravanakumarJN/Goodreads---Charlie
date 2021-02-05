@@ -1,43 +1,54 @@
-.inputLabel {
-  position: relative;
-  color: #a8a8a8;
-  top: 10px;
+.inputLabel{
+    position: relative;
+    color : #A8A8A8;
+    top:10px;
 }
 
-.inputLabel > input {
-  width: 360px;
-  padding: 7px 12px;
-  font-size: 15px;
-  border: 1px solid #dcd6cc;
+.inputLabel > input{
+    width:360px;
+    padding: 7px 12px;
+    font-size: 15px;
+    border:1px solid #DCD6CC;
 }
 
-.icon {
-  position: absolute;
-  top: 3px;
-  right: 15px;
+.icon{
+    position: absolute;
+    top:3px;
+    right:15px;
 }
 
-.results {
-  width: 385px;
-  position: absolute;
-  z-index: 1;
-  top: 43px;
-  border: 1px solid #d8d8d8;
-  background-color: white;
+.results{
+    width:385px;
+    position:absolute;
+    z-index: 1;
+    top:43px;
+    border:1px solid #D8D8D8;
+    background-color: white;
 }
 
-.results > h5 {
-  margin: 15px;
-  text-align: center;
+.results > h5{
+    margin:15px;
+    text-align: center;
 }
 
-.bottom {
-  text-align: center;
-  padding: 10px 0;
-  text-decoration: none;
+.bottom{
+    text-align: center;
+    padding:10px 0;
+    text-decoration: none;
+    font-size: 14px;
+    color:#31817C;
 }
 
-.bottom:hover {
-  text-decoration: underline;
-  cursor: pointer;
+.bottom:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px){
+    .inputLabel > input{
+        width:260px;
+    }
+    .results{
+        width:285px;
+    }
 }

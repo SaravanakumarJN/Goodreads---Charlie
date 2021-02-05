@@ -1,0 +1,44 @@
+.box
+{
+    height:fit-content;
+    width: 520px;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.box input
+{
+    padding: 5px;
+    width: 150px;
+    margin-left: 20px;
+}
+.groupBox
+{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom:1px solid gray ;
+}
+.groupBox p{
+    margin-left: 20px;
+    float: left;
+    margin-top: 15px;
+}
+.btnBox
+{
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+.btnBox img{
+    height: 75%;
+    width: 75%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.pBox{
+    height: 100%;
+    width: 150px;
+    float: left;
+}

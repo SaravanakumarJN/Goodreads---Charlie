@@ -6,6 +6,7 @@ import { bookSearchPerformerByID } from '../../redux/search/action';
 import { useParams } from 'react-router-dom';
 import {GoGraph} from 'react-icons/go'
 import StarRatings from 'react-star-ratings';
+import { ReadButton } from '../readButton/ReadButton'
 
 const ShowBookCard = () => {
     const {bookId} = useParams()
@@ -14,7 +15,7 @@ const ShowBookCard = () => {
 
     React.useEffect(() => {
         dispatch(bookSearchPerformerByID(bookId))
-    }, [selectedBook])
+    }, [bookId])
 
     if(selectedBook !== null){
         const {volumeInfo} = selectedBook
@@ -29,6 +30,7 @@ const ShowBookCard = () => {
             <div className = {styles.container}>
                 <div className = {styles.left}>
                     <img src = {src} alt = "img"></img>
+                    <ReadButton selectedBook = {selectedBook}></ReadButton>
                 </div>
                 <div className = {styles.right}>
                     <h2>{title}</h2>

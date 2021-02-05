@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { getQuesData } from "../../redux/Trivia/action";
 import TriviaQuestuion from "./TriviaQuestuion";
 import axios from "axios";
-import { Search } from "../../components/searchBar/Search";
 const Trivia = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.trivia.question);
@@ -71,7 +70,7 @@ const Trivia = () => {
           <div className={styles.outer__left__recentQues}>
             <p
               style={{
-                marginBottom: "5px",
+                marginBottom: "-5px",
                 fontSize: "13px",
                 fontWeight: "700",
               }}
@@ -127,7 +126,7 @@ const Trivia = () => {
           <div className={styles.myStats}>
             <p
               style={{
-                marginBottom: "5px",
+                marginBottom: "-5px",
                 fontSize: "13px",
                 fontWeight: "700",
               }}

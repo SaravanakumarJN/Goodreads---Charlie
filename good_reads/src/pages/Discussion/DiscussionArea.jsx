@@ -2,25 +2,32 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import styles from "./DiscussionArea.module.css";
 import { Link } from "react-router-dom";
-
+import {
+  getDataPost,
+  Post1Dis,
+  getDataPost1,
+} from "../../redux/Discussion/action";
 const DiscussionArea = () => {
   const data = useSelector((state) => state.disPost.data);
-  const isLoading = useSelector((state) => state.disPost.isLoading);
+  const isLoading1 = useSelector((state) => state.disPost.isLoading1);
+  const isLoading2 = useSelector((state) => state.disPost.isLoading2);
   const comments = useSelector((state) => state.disPost.comments);
   console.log("comme", comments);
   const dispatch = useDispatch();
-
+  // React.useEffect(() => {
+  //   dispatch(getDataPost());
+  // }, []);
   const [post, setPost] = React.useState("");
-  const handleComment = () => {
+  const handlePost = () => {
     const payload = {
       post,
     };
-    // dispatch(Post1Dis(payload));
+    dispatch(Post1Dis(payload));
   };
 
   return (
     <div>
-      {!isLoading ? (
+      {!isLoading1 ? (
         <div>.....isLoading</div>
       ) : (
         <div className={styles.cont}>
@@ -40,7 +47,7 @@ const DiscussionArea = () => {
             ></textarea>
           </label>
           <br />
-          <button onClick={handleComment}>Post</button>
+          <button onClick={handlePost}>Post</button>
           <div>
             <br />
             <br />

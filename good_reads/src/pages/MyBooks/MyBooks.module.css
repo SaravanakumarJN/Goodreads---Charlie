@@ -1,0 +1,45 @@
+.cont{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cont__flex{
+    display: flex;
+}
+
+.cont__filter{
+    flex-basis: 20em;
+    margin: 0 1em;
+}
+
+.cont__filter button{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #18645E;
+    cursor: pointer;
+}
+
+.cont__filter button:hover{
+    text-decoration: underline;
+}
+
+.cont__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0 1em;
+}
+
+.filter_btn{
+    background-color: white;
+    border: none;
+}
+
+.horizontal_rule{
+    margin: 1em 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
