@@ -23,7 +23,7 @@ const AllSpecificGenre = () => {
                     return(
                         <ShelfBookCard
                             key = {item.id}
-                            {...item}
+                            item = {item}
                         ></ShelfBookCard>
                     )
                 })
