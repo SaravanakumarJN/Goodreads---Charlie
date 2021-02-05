@@ -5,7 +5,8 @@ import {useDispatch} from 'react-redux'
 import { setSelectedBook } from '../../redux/genres/action'
 import { ReadButton } from '../readButton/ReadButton'
 
-const ShelfBookCard = ({volumeInfo, id}) => {
+const ShelfBookCard = ({item}) => {
+    const {volumeInfo, id} = item
     const {title, authors, averageRating, categories,ratingsCount, imageLinks, publishedDate } = volumeInfo
     const src = imageLinks === undefined ? "https://via.placeholder.com/60x100.png?text=No+image" : imageLinks.smallThumbnail
     const history = useHistory()
@@ -32,7 +33,7 @@ const ShelfBookCard = ({volumeInfo, id}) => {
                 </div>
             </div>
             <div className = {styles.right}>
-                <ReadButton></ReadButton>
+                <ReadButton selectedBook = {item} ></ReadButton>
             </div>
         </div>
     )

@@ -15,7 +15,7 @@ const ShowBookCard = () => {
 
     React.useEffect(() => {
         dispatch(bookSearchPerformerByID(bookId))
-    }, [selectedBook])
+    }, [bookId])
 
     if(selectedBook !== null){
         const {volumeInfo} = selectedBook
@@ -30,7 +30,7 @@ const ShowBookCard = () => {
             <div className = {styles.container}>
                 <div className = {styles.left}>
                     <img src = {src} alt = "img"></img>
-                    <ReadButton className = {styles.readButton}></ReadButton>
+                    <ReadButton selectedBook = {selectedBook}></ReadButton>
                 </div>
                 <div className = {styles.right}>
                     <h2>{title}</h2>
