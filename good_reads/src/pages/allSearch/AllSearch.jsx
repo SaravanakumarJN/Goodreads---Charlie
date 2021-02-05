@@ -23,7 +23,7 @@ const AllSearch = () => {
                     return(
                         <ShelfBookCard
                             key = {item.id}
-                            item = {item}
+                            {...item}
                         ></ShelfBookCard>
                     )
                 })

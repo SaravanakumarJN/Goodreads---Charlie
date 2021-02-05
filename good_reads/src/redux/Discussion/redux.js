@@ -1,82 +1,50 @@
 import * as ActionTypes from "./actionTypes";
 const initialState = {
   data: [],
-  isLoading: false,
-  isLoading1: false,
-  comments: [],
-  isLoading2: false,
+  isLoading: true,
+  isPost: false,
 };
 const disPostReducer = (state = initialState, { type, payload }) => {
   console.log("data", state, payload, type);
   switch (type) {
-    case ActionTypes.GET_POST_REQ:
+    case ActionTypes.POST_REQ: {
       return {
         ...state,
-        isLoading: false,
-      };
-    case ActionTypes.GET_POST_SUCSESS: {
-      return {
-        ...state,
-        isLoading: true,
+        isPost: false,
       };
     }
-    case ActionTypes.GET_POST_FAIL: {
+    case ActionTypes.POST_SUCCESS: {
       return {
         ...state,
-        isLoading: false,
+        isPost: true,
+      };
+    }
+    case ActionTypes.POST_FAIL: {
+      return {
+        ...state,
+        isPost: false,
       };
     }
     case ActionTypes.GET_REQ: {
       return {
         ...state,
-        isLoading1: false,
+        isLoading: true,
       };
     }
-    case ActionTypes.GET_SUCSESS: {
+    case ActionTypes.GET_SUCCESS: {
       return {
         ...state,
         data: payload,
-        isLoading1: true,
+        isLoading: false,
       };
     }
     case ActionTypes.GET_FAIL: {
       return {
         ...state,
-        isLoading1: false,
+        isLoading: true,
       };
     }
 
-    //for commnets
-    case ActionTypes.POST1_REQ:
-      return {
-        ...state,
-        isLoading2: false,
-      };
-    case ActionTypes.POST1_SUCSESS: {
-      return {
-        ...state,
-        isLoading2: true,
-      };
-    }
-    case ActionTypes.POST1_FAIL: {
-      return {
-        ...state,
-        isLoading2: false,
-      };
-    }
-    case ActionTypes.GET_POST1_SUCSESS: {
-      return {
-        ...state,
-        comments: payload,
-        isLoading2: true,
-      };
-    }
-    case ActionTypes.GET_POST1_FAIL: {
-      return {
-        ...state,
-        isLoading2: false,
-      };
-    }
     default:
       return state;
   }

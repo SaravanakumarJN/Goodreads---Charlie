@@ -16,8 +16,9 @@ const TriviaQuestuion = ({
     <div>
       <div className={styles.quiz_container}>
         <p>{question}</p>
-        <img src={images} alt="image_author" width="100px" height="100px" />
+        <img src={images} alt="image_author" width="120px" height="120px" />
         <div className={styles.quiz_container__buttons}>
+          <p className={styles.correct}>Choose the correct answer:</p>
           {shuffledAnswer.map((answer) => (
             <button
               className={styles.quiz_container__buttons__button}
