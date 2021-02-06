@@ -18,6 +18,10 @@ const MyBooks = () => {
         dispatch(getBooks());
     }, [dispatch])
 
+    React.useEffect(() => {
+        setData(books[0])
+    }, [books])
+
 
     const handleChange = (value) => {
         console.log(value);

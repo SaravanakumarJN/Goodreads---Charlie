@@ -12,7 +12,7 @@ export const Chat = () => {
     
     React.useEffect(()=>{
         const t = new Date()
-        setPerson1("Saravana")
+        setPerson1("Gokhu")
         let tym = t.getHours()+":"+ t.getMinutes()+" "
         let a =t.getHours()>12?"pm":"am"
         setTime(tym+a)
