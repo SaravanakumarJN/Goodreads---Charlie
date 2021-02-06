@@ -15,7 +15,7 @@ const failure = () => {
 
 const userUpdateSuccess = () => {
     return{
-        tyoe : USER_UPDATE_SUCCESS
+        type : USER_UPDATE_SUCCESS
     }
 }
 
@@ -54,10 +54,11 @@ const userUpdatePerformer = (payload) => (dispatch) => {
         current_reading,
         completed_books
     })
-    .then(() => {
+    .then((res) => {
         dispatch(userUpdateSuccess())
+        dispatch(getUserRequestPerformer(1))
     })
-    .catch(() => {
+    .catch((error) => {
         dispatch(failure())
     })
 }

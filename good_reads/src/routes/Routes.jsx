@@ -23,6 +23,7 @@ import { Chat } from "../pages/messaging/chat/Chat";
 import { Quotes } from "../pages/Quotes/Quotes";
 import { MyQuotes } from "../pages/Quotes/MyQuotes";
 import { AddQuotes } from "../pages/Quotes/AddQuotes";
+import {PrivateRoutes} from './PrivateRoutes'
 
 const Routes = () => {
   let { path } = useRouteMatch();
@@ -30,70 +31,88 @@ const Routes = () => {
   console.log(path);
   return (
     <div className="container">
-      <Navbar></Navbar>
       <Switch>
         <Route exact path="/login">
           <LandingPage />
         </Route>
-        <Route exact path="/genres">
+        <PrivateRoutes exact path="/genres">
+          <Navbar></Navbar>
           <Genres></Genres>
-        </Route>
-        <Route exact path="/genre/:type">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/genre/:type">
+          <Navbar></Navbar>
           <SpecificGenre></SpecificGenre>
-        </Route>
-        <Route exact path="/shelf/show/:genreType">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/shelf/show/:genreType">
+          <Navbar></Navbar>
           <AllSpecificGenre></AllSpecificGenre>
-        </Route>
-        <Route exact path="/book/show/:bookId">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/book/show/:bookId">
+          <Navbar></Navbar>
           <ShowBookCard></ShowBookCard>
-        </Route>
-        <Route path="/search/:query">
+        </PrivateRoutes>
+        <PrivateRoutes path="/search/:query">
+          <Navbar></Navbar>
           <AllSearch></AllSearch>
-        </Route>
-        <Route exact path="/">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/">
+          <Navbar></Navbar>
           <Home />
-        </Route>
-        <Route exact path="/mybooks">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/mybooks">
+          <Navbar></Navbar>
           <MyBooks />
-        </Route>
-        <Route exact path="/discussion">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/discussion">
+          <Navbar></Navbar>
           <Discussion />
-        </Route>
-        <Route exact path="/discussion/post">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/discussion/post">
+          <Navbar></Navbar>
           <DiscussionPost />
-        </Route>
-        <Route exact path="/discussion/area">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/discussion/area">
+          <Navbar></Navbar>
           <DiscussionArea />
-        </Route>
-        <Route exact path="/trivia">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/trivia">
+          <Navbar></Navbar>
           <Trivia />
-        </Route>
-        <Route exact path="/quotes">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/quotes">
+          <Navbar></Navbar>
           <Quotes />
-        </Route>
-        <Route exact path="/myQuotes">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/myQuotes">
+          <Navbar></Navbar>
           <MyQuotes />
-        </Route>
-        <Route exact path="/addQuotes">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/addQuotes">
+          <Navbar></Navbar>
           <AddQuotes />
-        </Route>
-        <Route exact path="/people">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/people">
+          <Navbar></Navbar>
           <People></People>
-        </Route>
-        <Route exact path="/people/show/:id">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/people/show/:id">
+          <Navbar></Navbar>
           <PeopleShow />
-        </Route>
-        <Route exact path="/group">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/group">
+          <Navbar></Navbar>
           <Main />
-        </Route>
-        <Route exact path="/group/:g/:q">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/group/:g/:q">
+          <Navbar></Navbar>
           <Group />
-        </Route>
-        <Route exact path="/chat">
+        </PrivateRoutes>
+        <PrivateRoutes exact path="/chat">
+          <Navbar></Navbar>
           <Chat />
-        </Route>
+        </PrivateRoutes>
 
-        <Route>
+        <Routes>
           <p style={{ textAlign: "center" }}>
             <h1>Sorry, you’ve reached the end of the sidewalk.</h1>
             <br />
@@ -106,7 +125,7 @@ const Routes = () => {
             <br />
             <br />- Silverstein, Where the Sidewalk Ends
           </p>
-        </Route>
+        </Routes>
       </Switch>
       <Footer></Footer>
     </div>
