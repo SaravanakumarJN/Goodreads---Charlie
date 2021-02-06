@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Footer } from "../../components/Footer/Footer";
 import { useDispatch, useSelector } from "react-redux";
 import { name,sendAuthLogin,sendAuthRegister } from "../../redux/landingPage/action";
+import { Redirect } from "react-router-dom";
 
 const useStyles = makeStyles(() => ({
   btn: {
@@ -54,8 +55,16 @@ export const LandingPage = () => {
     dispatch(sendAuthLogin(payload))
     setEmail("")
     setPassword("")
-}
-console.log(signin)
+  }
+  console.log(signin)
+  const isLogin = JSON.parse(localStorage.getItem("isLogin"))
+
+  if(isLogin === "true"){
+    return(
+      <Redirect to = "/"></Redirect>
+    )
+  }
+
   return (
     <>
       <div className={style.navBar}>

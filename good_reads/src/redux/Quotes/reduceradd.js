@@ -1,5 +1,4 @@
 import * as ActionTypes from "./actionTypeadd";
-
 const init = {
   data: [],
 };
