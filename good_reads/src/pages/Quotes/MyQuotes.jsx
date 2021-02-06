@@ -19,7 +19,7 @@ const MyQuotes = () => {
           }}
         />
         <p style={{ marginTop: "10px", marginLeft: "12px", fontSize: "14px" }}>
-          Quotes popular among Goodreads members
+          Quotes that you liked most :)
         </p>
         <div>
           {data.map((ele) => (
@@ -56,9 +56,9 @@ const MyQuotes = () => {
             alignItems: "center",
           }}
         >
-          <Link to="/myQuotes">
+          <Link to="/quotes">
             {" "}
-            <p style={{ fontSize: "12px" }}>My Quotes</p>
+            <p style={{ fontSize: "12px" }}>Quotes</p>
           </Link>
           <p>|</p>
           <Link to="/addQuotes">
