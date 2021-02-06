@@ -24,6 +24,12 @@ const QuotesReducer = (state = initialState, { type, payload }) => {
         isLoading: true,
       };
     }
+    case ActionTypes.POST_SUCEESS: {
+      return {
+        ...state,
+        isLoading: true,
+      };
+    }
     default:
       return state;
   }
