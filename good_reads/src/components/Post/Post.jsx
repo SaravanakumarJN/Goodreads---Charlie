@@ -11,11 +11,19 @@ import ReactReadMoreReadLess from "react-read-more-read-less";
 
 const Post = (props) => {
 
-    const {type_of_post, name, image_url, rating, review, likes, comments, id, handleComment, handleLike} = props;
+    const {type_of_post, name, image_url, rating, review, likes, comments, id} = props;
     const {authors, title, description} = props.book_data.volumeInfo;
 
     const [commentInput, setCommentInput] = React.useState("")
     const [commentData, setCommentData] = React.useState([])
+    const [likesData, setLikesData] = React.useState(0);
+
+    const dispatch = useDispatch()
+
+    React.useEffect(() => {
+        setCommentData(comments);
+        setLikesData(likes)
+    }, [])
 
     const currUserProfile = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU"
     const currentUser ="Gokhu";
@@ -27,12 +35,25 @@ const Post = (props) => {
         commenterImg: currUserProfile
     }
 
-    const ref = React.useRef();
+    const handleComment = (id, e) => {
+        e.preventDefault();
+        dispatch(updatePosts(id, commentObj))
+        setCommentInput("");
+        setCommentData([...commentData, commentObj])
+    }
+
+    const handleLike = (id) => {
+        dispatch(updatePosts(id, null))
+        let tempLikes = likesData;
+        tempLikes++;
+        setLikesData(tempLikes)
+    }
+
+    const ref = React.useRef()
 
     const handleFocus = () => {
         ref.current.focus()
     }
-    // const dispatch = useDispatch()
 
     let thumbnail;
     "imageLinks" in props.book_data.volumeInfo ?  thumbnail = props.book_data.volumeInfo.imageLinks.thumbnail : thumbnail = "https://via.placeholder.com/140x200"
@@ -80,14 +101,14 @@ const Post = (props) => {
                     </div>
                 </div>
                 <div className={styles.like_comment}>
-                    <button onClick={() => handleLike(id)}>{likes !== 0 ? likes : 0} - Likes</button><span> . </span>
+                    <button onClick={() => handleLike(id)}>{likesData !== 0 ? likesData : 0} - Likes</button><span> . </span>
                     <button onClick={() => handleFocus(id)}>{comments.length !== 0 ? comments.length : 0} - Comments</button>
                 </div>
             </div>
             <div className={styles.post__bottom}>
                 <div style={{borderBottom : "1px solid #D8D8D8"}}>
                     {
-                        comments?.map(item => 
+                        commentData?.map(item => 
                             <>
                             <div className={styles.comment_user}>
                                 <div className={styles.comment_user_profile}>
@@ -99,7 +120,7 @@ const Post = (props) => {
                                 </div>                           
                             </div>
                             </>
-                            )
+                        )
                     }
                 
                 </div>
@@ -108,7 +129,7 @@ const Post = (props) => {
                         <img src={currUserProfile}/>
                     </div>
                     <div className={styles.comment_current_input}>
-                        <form onSubmit={(e) => handleComment(id, commentObj, e)}>
+                        <form onSubmit={(e) => handleComment(id , e)}>
                             <input type="text" ref={ref} placeholder="Write a comment..." onChange={e => setCommentInput(e.target.value)}/>
                         </form>
                     </div>     

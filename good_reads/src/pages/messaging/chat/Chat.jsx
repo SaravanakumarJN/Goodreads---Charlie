@@ -56,7 +56,7 @@ export const Chat = () => {
                     <p className={style.message}>{item.message}</p>
                 </div>
                 <div className={style.imgBox}>
-                    <img src="https://i.pinimg.com/originals/f2/0b/d3/f20bd31d1b96a0ab86b75029da6a87ca.jpg" alt="alt"/>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasBNP1Wz6ilTqpSe5av3iyqJhSqp44fkKeg&usqp=CAU" alt="alt"/>
                 </div>
             </div>:item.person2===person1? 
                 <div className={style.chatbox}>

@@ -63,20 +63,18 @@ const updatePosts = (id, commentObj) => async(dispatch) => {
             let res = await axios.get(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`)
             let tempData = res.data.comments;
             tempData.push(commentObj)
-            dispatch(updatePostsRequest())
+            dispatch(updatePostsRequest)
             const det = await axios.patch(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`,{
                 comments : tempData
             })
-            dispatch(getPosts())
         }else{
             let res = await axios.get(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`)
             let tempData = res.data.likes;
             tempData++;
-            dispatch(updatePostsRequest())
+            dispatch(updatePostsRequest)
             const det = await axios.patch(`https://good-reads-users-mock.herokuapp.com/community_updates/${id}`,{
                  likes : tempData
             })
-            dispatch(getPosts())
         }
     }catch (err){
         console.log(err);
