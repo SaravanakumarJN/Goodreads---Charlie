@@ -5,7 +5,6 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import {useDispatch, useSelector} from 'react-redux'
 import { communityUpdatePerformer, userUpdatePerformer } from '../../redux/userData/action'
-import { getUserRequestPerformer } from '../../redux/userData/action'
 
 const ReadButton = ({selectedBook}) => {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -13,15 +12,10 @@ const ReadButton = ({selectedBook}) => {
     const userData = useSelector(state => state.user.userData)
     const {private_shelf, to_read, current_reading, completed_books, name, image_url} = userData
     const dispatch = useDispatch()
-    const [renderer, setRenderer] = React.useState(1)
 
     const handleClick = (event) => {
       setAnchorEl(event.currentTarget);
     };
-
-    React.useState(() => {
-      dispatch(getUserRequestPerformer(1))
-    }, [renderer])
 
     const handleRead = () => {
       const private_shelf_update = private_shelf?.find((item) => item.id === id) ? private_shelf : [...private_shelf, selectedBook]
@@ -46,7 +40,6 @@ const ReadButton = ({selectedBook}) => {
       }
       dispatch(communityUpdatePerformer(payload1))
       setAnchorEl(null);
-      setRenderer(prev => prev+1)
     }
 
     const handleWantToRead = () => {
@@ -72,7 +65,6 @@ const ReadButton = ({selectedBook}) => {
       }
       dispatch(communityUpdatePerformer(payload1))
       setAnchorEl(null);
-      setRenderer(prev => prev+1)
     }
 
     const handleCurrentlyReading = () => {
@@ -98,7 +90,6 @@ const ReadButton = ({selectedBook}) => {
       }
       dispatch(communityUpdatePerformer(payload1))
       setAnchorEl(null);
-      setRenderer(prev => prev+1)
     }
   
     const handleClose = () => {

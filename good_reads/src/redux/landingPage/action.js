@@ -26,6 +26,14 @@ export const sendAuthRegister = (payload)=>dispatch=>{
 }
 
 export const sendAuthLogin = (payload)=>dispatch=>{
-    return axios.post("http://localhost:3123/login",payload).then(res=>dispatch(login(true))).catch(err=>dispatch(login(payload=false)))
+    return axios.post("http://localhost:3123/login",payload)
+    .then(res => {
+        dispatch(login(true))
+        localStorage.setItem("isLogin", JSON.stringify(true))
+    })
+    .catch(err => {
+        dispatch(login(payload=false))
+        localStorage.setItem("isLogin", JSON.stringify(false))
+    })
 }
 

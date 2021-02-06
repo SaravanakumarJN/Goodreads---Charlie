@@ -1,11 +1,4 @@
-.want_to_read{
-    margin: 1em 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-.want_to_read div{
+.image{
     margin: 2px;
 }
 
