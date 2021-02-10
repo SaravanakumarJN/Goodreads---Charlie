@@ -133,7 +133,7 @@ const MyBooks = () => {
                 </div>
                 <div className={styles.cont__main}>
                     {
-                        data.length !== 0 ? data.map(item =>
+                        data?.length !== 0 ? data?.map(item =>
                             <MyBooksCard {...item} key={item.id}/>   
                         ): books.length !== 0 ? books[0].map(item =>  <MyBooksCard {...item} key={item.id}/> ): <div></div>
                     }  
