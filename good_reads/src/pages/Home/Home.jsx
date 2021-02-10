@@ -63,14 +63,6 @@ const Home = () => {
         
     // }, [])
 
-    const handleComment = (id, commentObj, e) => {
-        e.preventDefault();
-        dispatch(updatePosts(id, commentObj))
-    }
-
-    const handleLike = (id) => {
-        dispatch(updatePosts(id, null))
-    }
 
 
     return (
@@ -94,18 +86,18 @@ const Home = () => {
                     )
                 }
                 </div>
-                <Link to="#">View all books</Link>
+                <Link to="/mybooks">View all books</Link>
                 <hr className={styles.horizontal_rule}/>
                 <div className={styles.bookshelves}>
                     <h4>BOOKSHELF</h4>
                     <div>
-                        <Link to="#">{wantToReadData.length} Want to Read</Link>
+                        <Link to="/mybooks">{wantToReadData.length} Want to Read</Link>
                     </div>
                     <div>
-                        <Link to="#">{currentlyReadingData.length} Currently Reading</Link>
+                        <Link to="/mybooks">{currentlyReadingData.length} Currently Reading</Link>
                     </div>
                     <div>
-                        <Link to="#">10 Read</Link>
+                        <Link to="/mybooks">{read[0] !== undefined? read[0][0].length : "-"} Read</Link>
                     </div>
                 </div>
             </div>
@@ -113,7 +105,7 @@ const Home = () => {
                 <h4>UPDATES</h4>
                 {
                     posts[0]?.slice(0).reverse()?.map(item => 
-                        <Post {...item} key={item.id} handleComment={handleComment} handleLike ={handleLike}/>
+                        <Post {...item} key={item.id}/>
                         )
                 }
             </div>

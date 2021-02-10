@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Footer } from "../../components/Footer/Footer";
 import { useDispatch, useSelector } from "react-redux";
 import { name,sendAuthLogin,sendAuthRegister } from "../../redux/landingPage/action";
-import { Redirect } from "react-router-dom";
+import { Redirect, useHistory } from "react-router-dom";
 
 const useStyles = makeStyles(() => ({
   btn: {
@@ -35,6 +35,7 @@ export const LandingPage = () => {
   const [password,setPassword] = React.useState()
   const [password2,setPassword2] = React.useState()
   const signin = useSelector(state=>state.signin.login)
+  const history = useHistory()
   const dispatch = useDispatch()
   const handleRegister =()=>{
       let payload ={
@@ -52,17 +53,19 @@ export const LandingPage = () => {
       email:email2,
       password:password2
     }
+    localStorage.setItem("isLogin", JSON.stringify(true))
     dispatch(sendAuthLogin(payload))
     setEmail("")
     setPassword("")
   }
-  console.log(signin)
-  const isLogin = JSON.parse(localStorage.getItem("isLogin"))
 
-  if(isLogin === "true"){
-    return(
-      <Redirect to = "/"></Redirect>
-    )
+  const isLogin = JSON.parse(localStorage.getItem("isLogin"))
+  React.useEffect(() => {
+
+  }, [signin])
+
+  if(isLogin === true){
+    history.push("/")
   }
 
   return (

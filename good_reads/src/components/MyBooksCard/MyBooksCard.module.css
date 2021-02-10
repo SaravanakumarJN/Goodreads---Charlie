@@ -1,3 +1,6 @@
+.card__cont h4{
+    font-family: 'Lato', sans-serif;
+}
 .card__cont{
     margin: 1em;
 }
@@ -14,7 +17,9 @@
 .img__popup{  
     display: none;
     background-color: white;  
-    /* width: 30%;   */
+    border-radius: 5px;
+    width: 30%;  
+    border: 5px solid #d4d1c9;
     /* overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
@@ -29,11 +34,11 @@
     z-index: 10;
     box-shadow: 7px 10px 45px -22px rgba(0,0,0,0.75);
     width: 30em;
-    overflow: hidden;
+    /* overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
-   -webkit-line-clamp: 8; /* number of lines to show */
-   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 8;
+   -webkit-box-orient: vertical; */
 }
 
 .img__popup:hover{  
@@ -43,4 +48,16 @@
     z-index: 10;
     box-shadow: 7px 10px 45px -22px rgba(0,0,0,0.75);
     width: 30em;
+}
+
+.author_name{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+
+.rating_text{
+    font-size: 0.8em;
+    color: #585858;
+    margin-bottom: 0.5em;
 }
