@@ -43,7 +43,7 @@ Goodreads, the world's largest community of book lovers, provides the user with 
 ### 4. Run application
 - Before running the application, kill the applications currently running on port 3000.
 - Open the clonned repository,
-    - Navigate to good_reads and run `npm start` in terminal
+    - Navigate to good_reads folder and run `npm start` in terminal
 - Your application is now running on `http://localhost:3000/`
 
 
