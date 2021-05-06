@@ -1,8 +1,10 @@
 # Goodreads :books:
 Goodreads, the world's largest community of book lovers, provides the user with features of finding and reading more books they will love, and keep track of the books they want to read, alongside building the community of people with similar interests.
 
-## Deployed Link
-[Googreads clone](https://goodreads-iota.vercel.app)
+## Deployed Link & Image Samples
+Click here :point_right: [Googreads clone](https://goodreads-iota.vercel.app)
+
+![Sample image of project](https://i.imgur.com/4vZr9jB.png)
 
 ## Features Built
 - Home page with latest community feeds, where user can like and comment on the feeds.
